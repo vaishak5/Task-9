@@ -1,0 +1,396 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.explore {
+	display: flex;
+	align-items: center;
+}
+
+.explore a {
+	text-decoration: none;
+}
+
+.explore p {
+	font-style: italic;
+	color: white;
+	font-size: 12px;
+
+}
+
+.explore p:hover {
+	text-decoration: underline;
+}
+
+.plus {
+	color: yellow;
+}
+
+
+.headerNav {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #2874f0;
+	padding: 10px;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	gap: 148px;
+}
+
+.searchBox {
+	padding: 5px;
+	width: 403px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	margin-left: 20px;
+	background-color: white;
+}
+
+.search input {
+	border-style: none;
+	width: 225px;
+	outline: none;
+}
+
+.login {
+	padding: 6px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	margin-left: 20px;
+	background-color: white;
+	text-align: center;
+
+}
+
+.login input {
+	border-style: none;
+	width: 100px;
+	text-align: center;
+	font-size: 16px;
+	color: #2874F0;
+	font-weight: 600;
+	outline: none;
+}
+
+.sellerTxt {
+	color: white;
+	font-size: 16px;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+}
+
+.more {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+}
+
+.cart {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	gap: 10px;
+	font-weight: 600;
+}
+
+.headerSecond {
+	display: flex;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+	font-family: Roboto, Arial, sans-serif;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: black;
+}
+
+.headerSecondNav {
+	display: flex;
+	gap: 63px;
+	margin-left: 20px;
+
+}
+
+.mainSection {
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+
+.mainSectionFirst {
+	width: 315px;
+}
+
+.mainSectionSecond {
+	display: flex;
+	flex-direction: column;
+	gap: 260px;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	border-right: 1px solid #ddd;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.loginSection {
+	background-color: #2874f0;
+	color: #fff;
+	padding: 40px 33px;
+	/*height: 350px;*/
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.logoPart {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	gap: 213px;
+}
+
+.log {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.log p {
+	color: #DBDBDB;
+	font-weight: 550;
+}
+
+.access p {
+	font-size: 18px;
+}
+
+.enter {
+	padding: 40px 33px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.details {
+	border-bottom: 1px solid #ddd;
+}
+
+.details input {
+	border-style: none;
+	outline: none;
+	font-size: 18px;
+}
+
+.privacyTxt p {
+	font-size: 12px;
+	color: #878787;
+}
+
+.privacyTxt a {
+	text-decoration: none;
+	color: #2874f0;
+}
+
+.reqBtn {
+	width: 100%;
+	padding: 10px;
+	border-style: none;
+	background-color: #fb641b;
+	color: white;
+
+}
+
+.createAccount {
+	text-align: center;
+}
+
+.createAccount a {
+	text-decoration: none;
+	color: #2874f0;
+	font-size: 14px;
+}
+
+.footer {
+	background-color: #172337;
+
+}
+
+.footerSection {
+	margin-left: 65px;
+	width: 90% !important;
+	padding-top: 40px;
+	display: flex;
+	gap: 38px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.aboutSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.aboutBelow {
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.groupCompany {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.groupSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.groupBelow {
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.help {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.helpSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.helpBelow {
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.consumer {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+}
+
+.consumerSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.consumerBelow {
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.line {
+	border: 1px solid #454d5e;
+	margin-left: 10px;
+}
+
+.mailUs {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+}
+
+.mailSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.mailBelow {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.5
+}
+
+.social p {
+	color: #878787;
+	font-size: 12px;
+}
+
+.socialIcons {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.registeredOffice {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+}
+
+.registeredOfficeSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.registeredOfficeBelow {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.5
+}
+
+.registeredOfficeBelow a {
+	text-decoration: none;
+	color: #2874F0;
+}
+
+.footerBelow {
+	border-top: 1px solid #454d5e;
+	padding: 25px 0;
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footerBelow a {
+	text-decoration: none;
+	color: white;
+}
+
+.footerBelowSet {
+	display: flex;
+	font-size: 14px;
+	gap: 30px;
+}
+
+.corporate {
+	color: white;
+}
+
+.dropdown span {
+	font-size: 15px;
+	margin-top: 2px;
+
+}

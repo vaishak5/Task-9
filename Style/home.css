@@ -1,0 +1,312 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, Arial, sans-serif;
+
+}
+
+body {
+	background-color: transparent;
+}
+
+.headerNav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #fff;
+	padding: 12px 28px;
+	background-color: transparent;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-bottom: 1px solid #ddd;
+	position: sticky;
+
+}
+
+.flipkartlogo {
+	cursor: pointer;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	gap: 148px;
+}
+
+.searchBox {
+	padding: 5px;
+	width: 403px;
+	border: 1px solid #ddd;
+	border-style: none;
+	padding-left: 10px;
+	margin-left: 20px;
+	background-color: #F2F6FC;
+	width: 40%;
+
+}
+
+.search input {
+	border-style: none;
+	width: 350px;
+	outline: none;
+	font-size: 17px;
+	font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+	background-color: #F2F6FC;
+}
+
+.searchIcon svg {
+	cursor: pointer;
+}
+
+.searchCont {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.headerSideIcons {
+	display: flex;
+	align-items: center;
+	gap: 41px;
+}
+
+.grocery {
+	min-width: 90px;
+	padding: 16px;
+	cursor: pointer;
+	box-sizing: content-box;
+}
+
+.mobiles {
+	min-width: 90px;
+	padding: 16px;
+	cursor: pointer;
+	text-decoration: none;
+
+	box-sizing: content-box;
+
+}
+
+.fashion {
+	min-width: 90px;
+	padding: 16px;
+	cursor: pointer;
+	text-decoration: none;
+
+	box-sizing: content-box;
+}
+
+.fashions {
+	display: flex;
+	align-items: center;
+}
+
+.electronics {
+	min-width: 90px;
+	padding: 16px;
+	cursor: pointer;
+
+
+	box-sizing: content-box;
+}
+
+.electronic {
+	display: flex;
+	align-items: center;
+}
+
+.furniture {
+	min-width: 90px;
+	padding: 16px;
+	cursor: pointer;
+
+	box-sizing: content-box;
+}
+
+.furnitureSet img {
+	padding-left: 50px;
+}
+
+.homeFurn {
+	display: flex;
+	align-items: center;
+}
+
+.appliances {
+	min-width: 90px;
+	padding: 16px;
+	cursor: pointer;
+
+	box-sizing: content-box;
+}
+
+.travel {
+	min-width: 90px;
+	padding: 16px;
+	cursor: pointer;
+
+	box-sizing: content-box;
+}
+
+.toys {
+	min-width: 90px;
+	padding: 16px;
+	cursor: pointer;
+
+	box-sizing: content-box;
+}
+
+.toysSet img {
+	padding-left: 50px;
+}
+
+.beautyToys {
+	display: flex;
+	align-items: center;
+}
+
+.twoWheeler {
+	min-width: 90px;
+	padding: 16px;
+	cursor: pointer;
+
+	box-sizing: content-box;
+}
+
+.twoWheelers {
+	display: flex;
+	align-items: center;
+}
+
+.twoWheelerSet img {
+	padding-left: 30px;
+}
+
+.headerSecond {
+	display: flex;
+	border: 0px solid black;
+	box-sizing: border-box;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-bottom: 1px solid #ddd;
+}
+
+.items {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	align-items: baseline;
+}
+
+.addImg {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.leftButton {
+	display: flex;
+
+	width: 40px;
+	background-color: #fff;
+	height: 88px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+
+}
+
+.mainSection {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.leftButton {
+	display: flex;
+	position: absolute;
+	width: 40px;
+	background-color: #fff;
+	height: 88px;
+	top: 0px;
+	left: 8px;
+	margin: auto 0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+	border-style: none;
+	background-color: #fff;
+}
+
+.leftButton span {
+	color: #A9A9A9;
+}
+
+.rightButton {
+	display: flex;
+	position: absolute;
+	width: 40px;
+	background-color: #fff;
+	height: 88px;
+	top: 290px;
+	right: 7px;
+	margin: auto 0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+	border-style: none;
+	background-color: #fff;
+}
+
+.rightButton span {
+	color: #A9A9A9;
+}
+
+.secondMain {
+	display: flex;
+	padding-left: 19px;
+	margin-top: 20px;
+	flex-direction: column;
+}
+
+.secondMainSection {
+	display: flex;
+	align-items: center;
+	gap: 775px;
+	padding-left: 7px;
+}
+
+.smartPhoneImages {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.endIcon {
+	border: 1px solid #ddd;
+	border-radius: 16px;
+	padding-left: 2px;
+	background-color: #2a55e5;
+
+}
+
+.endIcon span {
+	color: white;
+}
+
+.smartPhones {
+	display: flex;
+}
+
+.smartPhoneImages {
+	display: flex;
+}
+
+.mobileadds {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.thirdMainSection {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 20px;
+}

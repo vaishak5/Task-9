@@ -193,7 +193,6 @@
 .mainSectionSecond {
 	display: flex;
 	flex-direction: column;
-	gap: 260px;
 	border-bottom: 1px solid #ddd;
 	background-color: #fff;
 	border-right: 1px solid #ddd;

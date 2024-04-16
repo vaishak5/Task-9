@@ -1,0 +1,606 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.headerNav {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #2874f0;
+	padding: 10px;
+}
+
+.flipkartlogo {
+	cursor: pointer;
+}
+
+.explore {
+	display: flex;
+	align-items: center;
+}
+
+.explore a {
+	text-decoration: none;
+}
+
+.explore p {
+	font-style: italic;
+	color: white;
+	font-size: 12px;
+
+}
+
+.explore p:hover {
+	text-decoration: underline;
+}
+
+.plus {
+	color: yellow;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	gap: 148px;
+}
+
+.searchBox {
+	padding: 5px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	background-color: white;
+}
+
+.search input {
+	border-style: none;
+	width: 225px;
+	outline: none;
+}
+
+.searchIcon svg {
+	cursor: pointer;
+}
+
+.account {
+	display: flex;
+	gap: 5px;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.sellerTxt {
+	color: white;
+	font-size: 16px;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.more {
+	display: flex;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+	gap: 5px;
+}
+
+.cart {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	gap: 10px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.headerSecond {
+	display: flex;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+	font-family: Roboto, Arial, sans-serif;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: black;
+}
+
+.headerSecondNav {
+	display: flex;
+	gap: 45px;
+
+	cursor: pointer;
+
+}
+
+.dropdown span {
+	font-size: 13px;
+}
+
+.electronics {
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.electronics:hover {
+	color: #2874f0;
+}
+
+.electronics span:hover {
+	color: #2874f0;
+}
+
+.tv {
+	display: flex;
+	align-items: center;
+}
+
+.tv:hover {
+	color: #2874f0;
+}
+
+.tv span:hover {
+	color: #2874f0;
+}
+
+.men {
+	display: flex;
+	align-items: center;
+}
+
+.men:hover {
+	color: #2874f0;
+}
+
+.men span:hover {
+	color: #2874f0;
+}
+
+.women {
+	display: flex;
+	align-items: center;
+}
+
+.baby {
+	display: flex;
+	align-items: center;
+}
+
+.women:hover {
+	color: #2874f0;
+}
+
+.women span:hover {
+	color: #2874f0;
+}
+
+.baby:hover {
+	color: #2874f0;
+}
+
+.baby span:hover {
+	color: #2874f0;
+}
+
+.home {
+	display: flex;
+	align-items: center;
+}
+
+.home:hover {
+	color: #2874f0;
+}
+
+.home span:hover {
+	color: #2874f0;
+}
+
+.sports {
+	display: flex;
+	align-items: center;
+}
+
+.sports:hover {
+	color: #2874f0;
+}
+
+.sports span:hover {
+	color: #2874f0;
+}
+
+.flights {
+	display: flex;
+	align-items: center;
+}
+
+.flights:hover {
+	color: #2874f0;
+}
+
+.flights span:hover {
+	color: #2874f0;
+}
+
+.offer {
+	display: flex;
+	align-items: center;
+}
+
+.offer:hover {
+	color: #2874f0;
+}
+
+.offer span:hover {
+	color: #2874f0;
+}
+
+.mainSection {
+	padding: 8px;
+}
+
+.ftHead {
+	margin: 8px 0;
+}
+
+.ftHead h4 {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.leftButton {
+	display: flex;
+	position: absolute;
+	width: 40px;
+	background-color: #fff;
+	height: 88px;
+	top: 5px;
+	left: 8px;
+	margin: auto 0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+	border-style: none;
+	background-color: #fff;
+	align-items: center;
+	justify-content: center;
+	bottom: 100px;
+
+
+}
+
+.leftButton span {
+
+	font-size: 50px;
+}
+
+.rightButton {
+	display: flex;
+	position: absolute;
+	width: 40px;
+	background-color: #fff;
+	height: 88px;
+	top: 5px;
+	right: 16px;
+	margin: auto 0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+	border-style: none;
+	background-color: #fff;
+	align-items: center;
+	justify-content: center;
+	bottom: 100px;
+}
+
+.rightButton span {
+	font-size: 50px;
+}
+
+.bigImages {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.products {
+	display: block;
+	width: 100%;
+}
+
+.productsInside {
+	padding: 15px 20px;
+
+
+}
+
+.productsett {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	border-top: 1px solid #ddd;
+	padding-top: 15px;
+
+}
+
+.productsett h2 {
+	font-size: 22px;
+	line-height: 32px;
+	display: inline-block;
+	font-weight: 500;
+
+}
+
+.view {
+	border: 1px solid black;
+	background-color: #2874f0;
+	color: white;
+	border-style: none;
+	outline: none;
+
+}
+
+.view p {
+	font-size: 13px;
+	padding: 10px 20px;
+}
+
+.deals {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+}
+
+.deals h3 {
+	font-size: 14px;
+	color: #b2b2b2;
+	font-weight: 400;
+}
+
+.productImagesSet {
+	padding: 8px;
+	cursor: pointer;
+}
+
+.productImages {
+	display: flex;
+	align-items: flex-start;
+	gap: 1px;
+}
+
+.offImages {
+	display: flex;
+	align-items: flex-start;
+	gap: 6px;
+}
+
+.footer {
+	background-color: #172337;
+
+}
+
+.footerSection {
+	margin-left: 65px;
+	width: 90% !important;
+	padding-top: 40px;
+	display: flex;
+	gap: 38px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.aboutSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.aboutBelow {
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.aboutBelow p {
+	cursor: pointer;
+}
+
+.aboutBelow p:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.groupCompany {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.groupSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.groupBelow {
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.groupBelow p {
+	cursor: pointer;
+}
+
+.groupBelow p:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.help {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.helpSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.helpBelow {
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.helpBelow p {
+	cursor: pointer;
+}
+
+.helpBelow p:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.consumer {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+}
+
+.consumerSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.consumerBelow {
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.consumerBelow p {
+	cursor: pointer;
+}
+
+.consumerBelow p:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.line {
+	border: 1px solid #454d5e;
+	margin-left: 10px;
+}
+
+.mailUs {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+}
+
+.mailSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.mailBelow {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.5
+}
+
+.social p {
+	color: #878787;
+	font-size: 12px;
+}
+
+.socialIcons {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.socialIcons img {
+	cursor: pointer;
+}
+
+.registeredOffice {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+}
+
+.registeredOfficeSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.registeredOfficeBelow {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.5
+}
+
+.registeredOfficeBelow a {
+	text-decoration: none;
+	color: #2874F0;
+}
+
+.footerBelow {
+	border-top: 1px solid #454d5e;
+	padding: 25px 0;
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footerBelow a {
+	text-decoration: none;
+	color: white;
+}
+
+.footerBelowSet {
+	display: flex;
+	font-size: 14px;
+	gap: 30px;
+}
+
+.corporate {
+	color: white;
+}
+
+.dropdown span {
+	font-size: 15px;
+	margin-top: 2px;
+
+}
+
+.footerBelowSet img {
+	cursor: default;
+}
+
+.addImg img {
+	cursor: pointer;
+}
+
+.view {
+	cursor: pointer;
+}

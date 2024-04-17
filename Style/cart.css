@@ -1,0 +1,528 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, Arial, sans-serif;
+
+}
+
+.headerNav {
+	display: flex;
+	align-items: end;
+	justify-content: space-evenly;
+	background-color: #2874f0;
+	padding: 10px;
+}
+
+.headerNavFirst {
+	display: flex;
+	gap: 25px;
+}
+
+.flipkartlogo {
+	cursor: pointer;
+}
+
+.explore {
+	display: flex;
+	align-items: center;
+}
+
+.explore a {
+	text-decoration: none;
+}
+
+.explore p {
+	font-style: italic;
+	color: white;
+	font-size: 12px;
+
+}
+
+.explore p:hover {
+	text-decoration: underline;
+}
+
+.plus {
+	color: yellow;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.searchBox {
+	padding: 5px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	background-color: white;
+	width: 500px;
+}
+
+.search input {
+	border-style: none;
+	width: 225px;
+	outline: none;
+}
+
+.searchIcon {
+	margin-top: 5px;
+}
+
+.searchIcon svg {
+	cursor: pointer;
+}
+
+.account {
+	display: flex;
+	gap: 5px;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.main {
+	border-bottom: 1px solid #ddd;
+}
+
+.mainBody {
+	max-width: 1260px;
+	margin: 0 auto;
+}
+
+.mainSection {
+	padding: 8px;
+}
+
+.mainSectionSet {
+	display: flex;
+	/*justify-content:space-between;*/
+}
+
+.mainSectionFirst {
+	width: 73%;
+}
+
+.mainSectionFirstCont {
+	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
+}
+
+/*.mainSectionFirst{
+	width:50%;
+}*/
+.flipkart {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
+}
+
+.flipkartTxt {
+
+	border-bottom: 3px solid #2a55e5;
+	padding: 20px 50px;
+	text-align: center;
+	align-items: center;
+	width: 20%;
+	color: #2a55e5;
+}
+
+.grocery {
+	padding: 20px 50px;
+}
+
+.deliveryTxt {
+	font-size: 14px;
+}
+
+.changeBtn {
+	padding: 10px 16px;
+	background-color: #ffffff;
+	color: #2874f0;
+	border-style: none;
+	outline: none;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.mainSectionSecondCont {
+	padding: 12px 16px;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
+	margin-top: 10px;
+}
+
+.mainSectionSecond {
+	padding: 12px 16px;
+	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
+	margin-top: 10px;
+}
+
+.tvDescription a {
+	color: #212121;
+	font-size: 16px;
+}
+
+.tvDescription p {
+	color: #878787;
+	font-size: 14px;
+
+}
+
+.tvDescription {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.seller {
+	display: flex;
+}
+
+.seller img {
+	width: 55px;
+	height: 15px;
+}
+
+.tvSetDetails {
+	display: flex;
+
+}
+
+.date p {
+	font-size: 14px;
+}
+
+.rs {
+	font-size: 14px;
+	color: #878787;
+}
+
+.rup {
+	font-size: 18px;
+	color: #212121;
+	margin: 18px 8px 0px 0px;
+}
+
+.rupee {
+	display: flex;
+	align-items: baseline;
+	gap: 8px;
+}
+
+.off {
+	font-size: 14px;
+	color: #388e3c;
+}
+
+.offerr {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.tvDetailsSecond {
+	display: flex;
+}
+
+.symbols {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.arit {
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	padding-left: 13px;
+	padding-right: 11px;
+	padding-top: 5px;
+	padding-bottom: 9px;
+	color: #c2c2c2;
+	border-color: #e0e0e0;
+}
+
+.one {
+	border: 1px solid #ddd;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 5px;
+	padding-bottom: 9px;
+	background-color: white;
+}
+
+.aritt {
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-top: 5px;
+	padding-bottom: 9px;
+	font-size: 16px;
+	border-color: #e0e0e0;
+}
+
+.tvDetailsSecond {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.saveTxt {
+	display: flex;
+	/* gap: 10px; */
+	font-size: 15px;
+	color: #212121;
+}
+
+.tvDetailsThird {
+	display: flex;
+	justify-content: flex-end;
+	border-top: 1px solid #f0f0f0;
+	background: #fff;
+	padding: 16px 22px;
+	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
+	margin-top: 20px;
+}
+
+.date {
+	margin-left: 12px;
+}
+
+.placeOrder {
+	background: #fb641b;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+	border: none;
+	color: #fff;
+	padding: 16px 30px;
+	min-width: 250px;
+	font-size: 16px;
+
+}
+
+.secondSection {
+	padding: 0px 0px 0px 16px;
+	margin-top: 10px;
+}
+
+.price {
+	padding-bottom: 10px;
+	font-weight: 600;
+}
+
+.price span {
+	padding: 13px 24px;
+	color: #878787;
+
+}
+
+.amount {
+	display: flex;
+	margin: 20px 0;
+
+}
+
+.amountDetails {
+	display: flex;
+
+
+	align-items: flex-start;
+	gap: 114px;
+}
+
+.amountSet {
+	display: flex;
+	flex-direction: column;
+	padding: 0 24px;
+	color: #212121;
+	border-top: 1px solid #ddd;
+}
+
+.amountSecond {
+	display: flex;
+}
+
+.amountDetailsSecond {
+	display: flex;
+	gap: 138px;
+}
+
+.amountThd {
+	display: flex;
+	margin: 20px 0;
+}
+
+.amountDetailsThd {
+	display: flex;
+	gap: 85px;
+}
+
+.total {
+	display: flex;
+
+	font-size: 18px;
+	color: #212121;
+	border-top: 1px dashed #e0e0e0;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.saved {
+	border-top: 1px dashed #e0e0e0;
+	padding: 12px 0px;
+	color: #388e3c;
+	font-size: 16px;
+	font-weight: 500;
+
+}
+
+.waranty {
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+	background: #f4f8ff;
+	padding: 16px;
+	border: 1px solid #e0e0e0;
+}
+
+.warantyPlan p {
+	font-size: 16px;
+	color: #212121;
+}
+
+.extendedWaranty {
+	display: flex;
+}
+
+.ex {
+	font-size: 16px;
+	color: #212121;
+}
+
+.yr {
+	font-size: 14px;
+	color: #878787;
+	margin-top: 5px;
+}
+
+.exAmt {
+	display: flex;
+	margin: 12px 0 4px;
+}
+
+.delAmt {
+	font-size: 14px;
+	color: #878787;
+	margin-left: 8px;
+}
+
+.discount span {
+	font-size: 13px;
+	color: #388e3c;
+	margin-left: 8px;
+}
+
+.addBtn button {
+	background-color: #ff9f00;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+	border: none;
+	color: #fff;
+	padding: 16px 30px;
+	min-width: 152px;
+	font-size: 14px;
+}
+
+.warantyCard p {
+	text-align: left;
+	line-height: 20px;
+
+	font-size: 14px;
+	color: #212121;
+}
+
+.warantyCard a {
+
+	text-decoration: none;
+	outline: none;
+	color: #2874f0;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.safe {
+	margin-top: 25px;
+
+}
+
+.safeContent {
+	display: flex;
+	gap: 10px;
+}
+
+.guardTxt {
+	font-size: 14px;
+	color: #878787;
+}
+
+.footer {
+	width: 90%;
+	margin: 0 auto;
+	padding: 25px;
+	fo
+}
+
+.footerContents {
+	display: flex;
+	font-size: 14px;
+	color: #565656;
+}
+
+.return {
+	padding: 0px 5px;
+	border-right: 1px solid #878787;
+}
+
+.term {
+	padding: 0px 5px;
+	border-right: 1px solid #878787;
+}
+
+.security {
+	padding: 0px 5px;
+	border-right: 1px solid #878787;
+}
+
+.privacy {
+	padding: 0px 5px;
+	border-right: 1px solid #878787;
+}
+
+.infringement {
+	padding: 0px 5px;
+	border-right: 1px solid #878787;
+}
+
+.footerSecond {
+	margin-left: 25px;
+}
+
+.footerThird {
+	margin-left: 200px;
+}
+
+.footerThird span {
+	font-size: 14px;
+	color: #565656;
+}
+
+.footerThird span a {
+	text-decoration: none;
+	outline: none;
+	color: #2874f0;

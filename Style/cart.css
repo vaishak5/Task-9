@@ -124,19 +124,25 @@
 	border-bottom: 3px solid #2a55e5;
 	padding: 20px 50px;
 	text-align: center;
-	align-items: center;
 	width: 20%;
 	color: #2a55e5;
+	cursor:pointer;
 }
 
 .grocery {
 	padding: 20px 50px;
+	cursor:pointer;
 }
-
+.grocery p:hover{
+	color:#2a55e5;
+}
 .deliveryTxt {
 	font-size: 14px;
+	
 }
-
+.deliveryCont{
+	cursor:default;
+}
 .changeBtn {
 	padding: 10px 16px;
 	background-color: #ffffff;
@@ -145,6 +151,7 @@
 	outline: none;
 	border: 1px solid #ddd;
 	border-radius: 5px;
+	cursor:pointer;
 }
 
 .mainSectionSecondCont {
@@ -162,6 +169,9 @@
 	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
 	margin-top: 10px;
 }
+.tvImg img{
+	cursor:pointer;
+}
 
 .tvDescription a {
 	color: #212121;
@@ -178,6 +188,13 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+.tvDescription a{
+	cursor:pointer;
+	
+}
+.tvDescription a:hover{
+	color:#2874f0;
 }
 
 .seller {
@@ -219,6 +236,11 @@
 	font-size: 14px;
 	color: #388e3c;
 }
+.offersApply{
+	font-size: 14px;
+	color: #388e3c;
+	cursor:pointer;
+}
 
 .offerr {
 	display: flex;
@@ -245,6 +267,7 @@
 	padding-bottom: 9px;
 	color: #c2c2c2;
 	border-color: #e0e0e0;
+	cursor:default;
 }
 
 .one {
@@ -254,6 +277,7 @@
 	padding-top: 5px;
 	padding-bottom: 9px;
 	background-color: white;
+	cursor:default;
 }
 
 .aritt {
@@ -265,6 +289,7 @@
 	padding-bottom: 9px;
 	font-size: 16px;
 	border-color: #e0e0e0;
+	cursor:pointer;
 }
 
 .tvDetailsSecond {
@@ -279,6 +304,10 @@
 	/* gap: 10px; */
 	font-size: 15px;
 	color: #212121;
+	cursor:pointer;
+}
+.saveTxt span:hover{
+	color:#2874f0;
 }
 
 .tvDetailsThird {
@@ -289,6 +318,10 @@
 	padding: 16px 22px;
 	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
 	margin-top: 20px;
+	
+}
+.placeOrder{
+	cursor:pointer;
 }
 
 .date {
@@ -310,7 +343,9 @@
 	padding: 0px 0px 0px 16px;
 	margin-top: 10px;
 }
-
+.secondSectionFirst{
+	margin-top:12px;
+}
 .price {
 	padding-bottom: 10px;
 	font-weight: 600;
@@ -330,10 +365,10 @@
 
 .amountDetails {
 	display: flex;
-
+	margin-top:20px;
 
 	align-items: flex-start;
-	gap: 114px;
+	justify-content:space-between;
 }
 
 .amountSet {
@@ -350,7 +385,9 @@
 
 .amountDetailsSecond {
 	display: flex;
-	gap: 138px;
+	justify-content:space-between;
+	margin-top:20px;
+
 }
 
 .amountThd {
@@ -360,18 +397,19 @@
 
 .amountDetailsThd {
 	display: flex;
-	gap: 85px;
+	justify-content:space-between;
+	margin-top: 20px;
+    	padding-bottom: 15px;
 }
 
 .total {
 	display: flex;
-
 	font-size: 18px;
 	color: #212121;
 	border-top: 1px dashed #e0e0e0;
-
 	padding-top: 20px;
 	padding-bottom: 20px;
+	justify-content:space-between;
 }
 
 .saved {
@@ -437,6 +475,7 @@
 	padding: 16px 30px;
 	min-width: 152px;
 	font-size: 14px;
+	cursor:pointer;
 }
 
 .warantyCard p {
@@ -487,26 +526,31 @@
 .return {
 	padding: 0px 5px;
 	border-right: 1px solid #878787;
+	cursor:pointer;
 }
 
 .term {
 	padding: 0px 5px;
 	border-right: 1px solid #878787;
+	cursor:pointer;
 }
 
 .security {
 	padding: 0px 5px;
 	border-right: 1px solid #878787;
+	cursor:pointer;
 }
 
 .privacy {
 	padding: 0px 5px;
 	border-right: 1px solid #878787;
+	cursor:pointer;
 }
 
 .infringement {
 	padding: 0px 5px;
 	border-right: 1px solid #878787;
+	cursor:pointer;
 }
 
 .footerSecond {
@@ -526,3 +570,4 @@
 	text-decoration: none;
 	outline: none;
 	color: #2874f0;
+}

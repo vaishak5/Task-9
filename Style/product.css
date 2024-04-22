@@ -1,0 +1,243 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, Arial, sans-serif;
+}
+.headerNav {
+	display: flex;
+	/*align-items: center;
+	justify-content: space-evenly;
+	background-color: #2874f0;
+	padding: 10px;*/
+}
+.flipkartlogo{
+	cursor:pointer;
+}
+.explore {
+	display: flex;
+	align-items: center;
+}
+
+.explore a {
+	text-decoration: none;
+}
+
+.explore p {
+	font-style: italic;
+	color: white;
+	font-size: 12px;
+
+}
+
+.explore p:hover {
+	text-decoration: underline;
+}
+
+.plus {
+	color: yellow;
+}
+.search {
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	width:304px;
+}
+
+.searchBox {
+	padding: 5px;
+	/*width: 403px;*/
+	border: 1px solid #ddd;
+	/*padding-left: 10px;
+	margin-left: 20px;*/
+	background-color: white;
+	width:316px;
+}
+
+.search input {
+	border-style: none;
+	width: 225px;
+	outline: none;
+}
+.searchIcon svg{
+	cursor:pointer;
+}
+.account{
+	display: flex;
+    color: white;
+    align-items: center;
+    font-weight: 600;
+}
+
+.sellerTxt {
+	color: white;
+	font-size: 16px;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+	cursor:pointer;
+}
+
+.more {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+	cursor:pointer;
+}
+
+.cart {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	gap: 10px;
+	font-weight: 600;
+	cursor:pointer;
+}
+.headerNavSd{
+	background-color: #2874f0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.headerSecond {
+	display: flex;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+	font-family: Roboto, Arial, sans-serif;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: black;
+}
+
+.headerSecondNav {
+	display: flex;
+	/*gap: 45px;*/
+
+	cursor: pointer;
+
+}
+
+.dropdown span {
+	font-size: 13px;
+}
+
+.electronics {
+	display: flex;
+	align-items: center;
+	
+}
+
+.electronics:hover {
+	color: #2874f0;
+}
+
+.electronics span:hover {
+	color: #2874f0;
+}
+
+.tv {
+	display: flex;
+	align-items: center;
+}
+
+.tv:hover {
+	color: #2874f0;
+}
+
+.tv span:hover {
+	color: #2874f0;
+}
+
+.men {
+	display: flex;
+	align-items: center;
+}
+
+.men:hover {
+	color: #2874f0;
+}
+
+.men span:hover {
+	color: #2874f0;
+}
+
+.women {
+	display: flex;
+	align-items: center;
+}
+
+.baby {
+	display: flex;
+	align-items: center;
+}
+
+.women:hover {
+	color: #2874f0;
+}
+
+.women span:hover {
+	color: #2874f0;
+}
+
+.baby:hover {
+	color: #2874f0;
+}
+
+.baby span:hover {
+	color: #2874f0;
+}
+
+.home {
+	display: flex;
+	align-items: center;
+}
+
+.home:hover {
+	color: #2874f0;
+}
+
+.home span:hover {
+	color: #2874f0;
+}
+
+.sports {
+	display: flex;
+	align-items: center;
+}
+
+.sports:hover {
+	color: #2874f0;
+}
+
+.sports span:hover {
+	color: #2874f0;
+}
+
+.flights {
+	display: flex;
+	align-items: center;
+}
+
+.flights:hover {
+	color: #2874f0;
+}
+
+.flights span:hover {
+	color: #2874f0;
+}
+
+.offer {
+	display: flex;
+	align-items: center;
+}
+
+.offer:hover {
+	color: #2874f0;
+}
+
+.offer span:hover {
+	color: #2874f0;
+}

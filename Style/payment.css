@@ -59,6 +59,7 @@
 .mainSection {
 	padding: 8px;
 	width: 70%;
+	margin-top:10px;
 
 }
 
@@ -67,6 +68,8 @@
 	background-color: white;
 	justify-content: space-between;
 	padding: 16px 24px;
+	border-bottom: 1px solid #ddd;
+	cursor:default;
 }
 
 .login {
@@ -91,19 +94,16 @@
 	display: flex;
 	flex-direction: column;
 	cursor:default;
+	
 }
 
 .log {
 	color: #878787;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight:600;
 	margin-bottom: 6px;
 }
 
-.mob {
-	font-size: 14px;
-	margin-left: 6px;
-}
 
 .changeBtn {
 	padding: 0px 32px;
@@ -120,11 +120,71 @@
 
 .mainSectionSecond {
 	margin-top: 20px;
+	border-bottom: 1px solid #ddd;
+	background-color: white;
 	cursor:default;
 }
 
 .mainSectionSecondContents {
 	padding: 14px 24px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.numberSd {
+	font-size: 12px;
+	color: #2874f0;
+	background-color: #f0f0f0;
+	border-radius: 2px;
+	padding: 3px 7px;
+
+	margin-right: 17px;
+}
+
+.deltxtFt {
+	font-size: 16px;
+	color: #878787;
+	font-weight: 600;
+	cursor:default;
+}
+
+
+.address {
+	padding: 16px 24px;
+	display: flex;
+	border-bottom: 1px solid #ddd;
+	background-color: white;
+}
+
+.deltxtSd {
+	display: flex;
+	font-size: 14px;
+	padding-top: 8px;
+	color: #212121;
+}
+
+.secondCont {
+	display: flex;
+}
+.mainSectionThird{
+	display:flex;
+	cursor:default;
+}
+.mainSectionThirdContents{
+	display:flex;
+}
+.ThirdCont{
+	display:flex;
+	align-items:center;
+}
+.mainSectionSecond {
+	margin-top: 20px;
+}
+
+.mainSectionFourthContents {
+	padding: 14px 24px;
+	background-color: #2874f0;
+	cursor:default;
 }
 
 .numberSd {
@@ -143,8 +203,9 @@
 	font-weight: 600;
 }
 
-.mainSectionSecond {
-	background-color: #2874f0;
+.mainSectionFourth {
+	
+	margin-top:20px;
 }
 
 .address {
@@ -152,236 +213,107 @@
 	display: flex;
 	border-bottom: 1px solid #ddd;
 	background-color: white;
-	
 }
 
 .addressMain {
 	margin-left: 18px;
-	cursor:default;
 
 
 }
-
-.addAddress span {
-	color: #2874f0;
-	font-size: 14px;
-
-	font-weight: 600;
+.paymentDetails{
+	display: flex;
+    
+    padding-top: 10px;
 }
-
-.location button {
-	padding: 14px 24px;
-	font-size: 14px;
-	background: #2874f0;
-	color: #fff;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
-	border: none;
-	margin-top: 16px;
-	margin-bottom: 16px;
+.upi{
+	padding-top:3px;
+}
+.upi input{
 	cursor:pointer;
 }
-
-.formSet {
-	display: flex;
-	gap: 55px;
-	
-}
-
-.formSetSecond {
-	display: flex;
-	gap: 55px;
-	margin-top: 10px;
-}
-
-.nameSet input[type=text] {
-	padding: 20px 30px 9px 13px;
-	border: 1px solid #ddd;
-	color: #878787;
-	width: 100%;
-	outline:none;
-}
-
-.digitNo input[type=text] {
-	padding: 20px 30px 9px 13px;
-	border: 1px solid #ddd;
-	color: #878787;
-	width: 100%;
-	outline:none;
-}
-
-.pincode input[type=text] {
-	padding: 20px 30px 9px 13px;
-	border: 1px solid #ddd;
-	color: #878787;
-	width: 100%;
-	outline:none;
-}
-
-.local input[type=text] {
-	padding: 20px 30px 9px 13px;
-	border: 1px solid #ddd;
-	color: #878787;
-	width: 100%;
-	outline:none;
-}
-
-.area {
-	border: 1px solid #ddd;
-}
-
-.area input[type=text] {
-	padding: 20px 30px 60px 13px;
-	border-style: none;
-	color: #878787;
-	outline:none;
-}
-
-.state input {
-	border-style: none;
-	font-size: 12px;
-	padding-left: 13px;
-	color: #878787;
-	outline:none;
-}
-
-.detail {
+.upiLogo{
 	display: flex;
 }
-
-.city input[type=text] {
-	padding: 20px 30px 9px 13px;
-	border: 1px solid #ddd;
-	color: #878787;
-	width: 100%;
-	outline:none;
-}
-
-.oppmain {
-	display: flex;
-	align-items: center;
-	font-size: 14px;
-	justify-content: space-between;
-}
-
-.formSetFifth {
-	border: 1px solid #ddd;
-	width: 256px;
-}
-
-.detail {
-	gap: 56px;
-	margin-top: 10px;
-}
-
-.formSetFifth {
-	background-color: white;
-}
-
-.formSetThird {
-	background-color: white;
-	margin-top: 10px;
-}
-
-.opp p {
-	padding-left: 10px;
-}
-
-.landmark {
-	display: flex;
-	gap: 55px;
-	margin-top: 10px;
-}
-
-.land input[type=text] {
-	padding: 20px 30px 9px 13px;
-	border: 1px solid #ddd;
-	color: #878787;
-	width: 100%;
-	outline:none;
-}
-
-.altern input[type=text] {
-	padding: 20px 30px 9px 13px;
-	border: 1px solid #ddd;
-	color: #878787;
-	width: 100%;
-	outline:none;
-}
-
-.time {
-	padding-left: 13px;
-	width: 100%;
-	margin-top: 8px;
-	margin-bottom: 8px;
-}
-
-.time p {
-	font-size: 12px;
-	color: #878787;
-	margin-bottom: 10px;
-}
-
-.delivered {
-	display: flex;
-	align-items: center;
-	gap: 45px;
-}
-
-.home span {
-	font-size: 14px;
-	color: #212121;
-}
-
-.work span {
-	font-size: 14px;
-	color: #212121;
-}
-
-.saveHere {
-	margin-top: 30px;
-}
-
-.saveBtn {
-	background: #fb641b;
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
-	border: none;
-	color: #fff;
-	padding: 15px 25px;
-	font-weight: 600;
+.upiLogo img{
 	cursor:pointer;
 }
-
-.order {
+.paymentSet{
 	display: flex;
-	padding: 14px 24px;
-	align-items: center;
+	background-color:white;
 	border-bottom: 1px solid #ddd;
-	background-color: white;
+    padding: 16px 25px;
+}
+.upiOptions{
+	padding-left: 15px;
+    padding-top: 8px;
+}
+.upiLogo{
+	display:flex;
+	gap:20px;
+}
+.upiCont{
+	display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.upiCont span{
+	font-size:14px;
 	cursor:default;
 }
-
-.ord span {
-	color: #878787;
-	font-weight: 600;
+.upi span{
+	cursor:pointer;
 }
-
-.payment {
+.choose{
+	font-size:14px;
+	cursor:default;
+	color:#212121;
+}
+.options{
 	display: flex;
-	padding: 14px 24px;
-	align-items: center;
-	border-bottom: 1px solid #ddd;
-	background-color: white;
+    flex-direction: column;
+    gap: 10px;
+}
+.options span{
+	font-size:14px;
+}
+.app span{
+	color:#878787;
+	font-size:14px;
+}
+.upiLogoSd{
+	display:flex;
+	gap:20px;
+	align-items:center;
+}
+.upiLogoSd img{
 	cursor:default;
 }
-
-.pay span {
-	color: #878787;
-	font-weight: 600;
+.upiOptionsSet{
+	display: flex;
+    flex-direction: column;
+	cursor:pointer;
+    gap: 10px;
 }
-
+.id span{
+	font-size:14px;
+}
+.mainSectionFifth{
+	display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 10px;
+    
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.upi span{
+	color:#878787;
+}
 .secondSection {
 	padding: 0px 0px 0px 16px;
 	margin-top: 10px;
+	width:30%;
 
 }
 
@@ -457,7 +389,6 @@
 	padding-bottom: 20px;
 	justify-content: space-between;
 }
-
 .saved {
 	border-top: 1px dashed #e0e0e0;
 	padding: 12px 0px;
@@ -466,85 +397,41 @@
 	font-weight: 500;
 
 }
-
-.waranty {
+.bank{
+	background-color: white;
+    margin-top: 20px;
+	cursor:pointer;
+}
+.bankFt{
 	display: flex;
-	gap: 15px;
-	flex-direction: column;
-	background: #f4f8ff;
-	padding: 16px;
-	border: 1px solid #e0e0e0;
+    border-bottom:1px solid #ddd;
+    justify-content: space-between;
+    padding: 22px 17px 20px 28px;
+	line-height: 16px;
+    letter-spacing: .3px;
+	gap:2px;
+	color: #111112;
 }
-
-.warantyPlan p {
-	font-size: 16px;
-	color: #212121;
+.bankFtTxt{
+	font-size:12px;
 }
-
-.extendedWaranty {
+.viewall a{
 	display: flex;
+    justify-content: center;
+    /* border-style: none; */
+    /* outline: none; */
+    text-decoration: none;
+    outline: none;
+    color: #2a55e5;
+    font-size: 14px;
 }
-
-.ex {
-	font-size: 16px;
-	color: #212121;
+.viewall{
+	padding: 22px 17px 20px 28px;
+	border-bottom:1px solid #ddd;
 }
-
-.yr {
-	font-size: 14px;
-	color: #878787;
-	margin-top: 5px;
-}
-
-.exAmt {
-	display: flex;
-	margin: 12px 0 4px;
-}
-
-.delAmt {
-	font-size: 14px;
-	color: #878787;
-	margin-left: 8px;
-}
-
-.discount span {
-	font-size: 13px;
-	color: #388e3c;
-	margin-left: 8px;
-}
-
-.addBtn button {
-	background-color: #ff9f00;
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
-	border: none;
-	color: #fff;
-	padding: 16px 30px;
-	min-width: 152px;
-	font-size: 14px;
-	cursor: pointer;
-}
-
-.warantyCard p {
-	text-align: left;
-	line-height: 20px;
-
-	font-size: 14px;
-	color: #212121;
-}
-
-.warantyCard a {
-
-	text-decoration: none;
-	outline: none;
-	color: #2874f0;
-	margin-left: 5px;
-	cursor: pointer;
-}
-
 .safe {
 	margin-top: 25px;
 	cursor:default;
-
 }
 
 .safeContent {

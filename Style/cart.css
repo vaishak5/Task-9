@@ -503,6 +503,7 @@
 .safeContent {
 	display: flex;
 	gap: 10px;
+	cursor:default;
 }
 
 .guardTxt {

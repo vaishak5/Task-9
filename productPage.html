@@ -160,7 +160,7 @@
 		<!--Main-->
 		<div class="mainSection col-12">
 			<div class="mainSectionSet col-12 d-flex flex-column flex-md-row">
-				<div class="mainnn col-5">
+				<div class="mainnn col-12 col-md-5">
 					<div class="mainSectionFt col-12">
 						<div class="leftImages d-lg-flex d-none">
 							<img src="./Assets/dollLeft.png" alt="img" width="71" height="300">
@@ -187,7 +187,7 @@
 					</div>
 				</div>
 				<!--SecondMainRightSide-->
-				<div class="mainSectionSd col-7 ">
+				<div class="mainSectionSd col-md-7 col-12">
 					<div class="mainSectionSdSet col-12 d-lg-flex d-none">
 						<div class="ftSection col-12 justify-content-between">
 							<div class="ftSectionLeft">
@@ -230,36 +230,231 @@
 						<img src="./Assets/assure.png" alt="img">
 					</div>
 					<div class="splPc">
-						<p>Special price</p>
-						<span class="splTxt ">₹399 </span><span class="delete ms-2"><del>₹3,499</del></span><span class="off ms-2"> 88% off</span>
-						<img src="./Assets/imp.png" alt="img" class="ms-2">
+						<p class="spl d-md-flex d-none">Special price</p>
+					</div>
+					<div class="splPcSd d-md-flex d-none">
+						<span class="splTxt d-md-flex d-none">₹399 </span><span class="delete ms-2 d-md-flex d-none"><del>₹3,499</del></span><span class="off ms-2 d-md-flex d-none"> 88% off</span>
+						<img src="./Assets/imp.png" alt="img" class="ms-2 d-md-flex d-none">
+					</div>
+					<div class="anotherSpl d-md-none d-flex">
+						<span class="off ms-2"> 88% off</span><span class="delete ms-2"><del>₹3,499</del></span><span class="splTxt ">₹399 </span>
+					</div>
+					<div class="free d-md-none d-flex">
+						<p style="font-size:12px;">Free delivery</p>
+					</div>
+					<div class="findSeller d-md-none d-flex justify-content-between mt-3">
+						<p style="font-size:12px;">Find a seller that delivers to you</p>
+						<button class="pincode">Enter Pincode</button>
+					</div>
+					<div class="delSet d-md-none d-flex mt-3 align-items-center justify-content-between">
+						<span class="material-symbols-outlined">local_shipping</span>
+						<p class="freeDe"><span class="dvery" style="color:#388e3c;">Free Delivery</span> <del style="font-size: 13px; border-right: 1px solid black; padding-right: 4px;">₹40</del><b style="font-size: 14px; padding-left: 4px;">Delivery by 1 May, Wednesday</b></p>
+						<span class="material-symbols-outlined">chevron_right</span>
+					</div>
+					<div class="delNxt d-md-none d-flex mt-3  justify-content-between">
+						<div class="rep">
+							<span class="material-symbols-outlined">repeat_on</span>
+							<p>7 Days <br>Replacement</p>
+						</div>
+						<div class="rep">
+							<span class="material-symbols-outlined">currency_rupee</span>
+							<p>Cash on Delivery <br> available</p>
+						</div>
+						<div class="rep">
+							<img src="./Assets/assure.png" alt="img" width="40" height="20">
+							<p>Plus (F-Assured)</p>
+						</div>
 					</div>
 					<div class="avalOffers d-md-flex d-none">
 						<b>Available offers</b>
 					</div>
-					<div class="partners d-md-flex d-none">
+					<div class="partners d-md-block d-none">
 						<img src="./Assets/partner.webp" alt="img" height="18" width="18">
-						<span class="partnerTxt">Partner Offer</span>
-						<span class="signUp">Sign-up for Flipkart Pay Later & get free Times Prime Benefits worth ₹20,000*</span>
-						<a href="#">Know More</a>
+						<span class="partnerTxt col-3 col-lg-2 ">Partner Offer</span>
+						<span class="signUp flex-wrap flex-xl-nowrap">Sign-up for Flipkart Pay Later & get free Times Prime Benefits worth ₹20,000*</span>
+						<a href="#" class="col-3">Know More</a>
 					</div>
-					<div class="partners d-md-flex d-none">
+					<div class="partners d-md-block d-none">
 						<img src="./Assets/partner.webp" alt="img" height="18" width="18">
-						<span class="partnerTxt">Partner Offer</span>
-						<span class="signUp">Make a purchase and enjoy a surprise cashback/ coupon that you can redeem later!</span>
-						<a href="#">Know More</a>
+						<span class="partnerTxt col-3 col-lg-2">Partner Offer</span>
+						<span class="signUp flex-wrap flex-xl-nowrap">Make a purchase and enjoy a surprise cashback/ coupon that you can redeem later!</span>
+						<a href="#" class="col-3">Know More</a>
 					</div>
-					<div class="partners d-md-flex d-none">
+					<div class="partners d-md-block d-none">
 						<img src="./Assets/partner.webp" alt="img" height="18" width="18">
-						<span class="partnerTxt">Special Price</span>
-						<span class="signUp">Get extra 75% off (price inclusive of cashback/coupon)</span>
-						<a href="#">T&C</a>
+						<span class="partnerTxt col-3 col-lg-2">Special Price</span>
+						<span class="signUp flex-wrap flex-xl-nowrap">Get extra 75% off (price inclusive of cashback/coupon)</span>
+						<a href="#" class="col-3">T&C</a>
 					</div>
-					<div class="partners d-md-flex d-none">
+					<div class="partners d-md-block d-none">
 						<img src="./Assets/partner.webp" alt="img" height="18" width="18">
-						<span class="partnerTxt">Combo Offer</span>
-						<span class="signUp">Buy 2 items save 5%; Buy 3 or more save 7%</span>
-						<a href="#">See all products T&C</a>
+						<span class="partnerTxt col-3 col-lg-2">Combo Offer</span>
+						<span class="signUp flex-wrap flex-xl-nowrap">Buy 2 items save 5%; Buy 3 or more save 7%</span>
+						<a href="#" class="col-3">See all products T&C</a>
+					</div>
+					<div class="viewOffer d-md-flex d-none">
+						<p>View 17 more offers</p>
+					</div>
+					<div class="deliveryCont d-md-flex d-none mt-2">
+						<div class="deliveryContFt">
+							<p style="font-size: 14px; color: #878787;">Delivery</p>
+						</div>
+						<div class="loc">
+							<span class="material-symbols-outlined">location_on</span>
+							<b style="font-size:14px;">629164</b><span class="ch" style="padding-left:50px;">Change</span>
+						</div>
+					</div>
+					<div class="ship d-md-flex d-none">
+						<p class="freeDee"><b style="font-size: 13px; border-right: 1px solid black; padding-left: 7px; padding-right: 5px;">Delivery by 1 May, Wednesday</b><span class="dveryy" style="padding-left: 5px;color:#388e3c;">Free</span><del style="font-size: 13px;  padding-left: 4px; ">₹40</del><span class="material-symbols-outlined" style="font-size: 17px; color:#878787; padding-left:5px;">help</span></p>
+					</div>
+					<p class="detail d-md-flex d-none">View Details</p>
+					<div class="highSer d-none d-md-flex">
+						<div class="highlight d-flex mt-3">
+							<p>Highlights</p>
+							<div class="list">
+								<ul class="lists">
+									<li>Pack of 10</li>
+									<li class="char">Character: unicorn, rabbit, kitty, elephant,<br>pikachu, parrot, penguin, balloon teddy,<br>cap teddy, heart pillow</li>
+									<li>Age: 1+ Years</li>
+								</ul>
+							</div>
+						</div>
+						<div class="services d-flex align-items-baseline">
+							<p>Services</p>
+						</div>
+						<div class="rsSet">
+							<img src="./Assets/rs.png" alt="img">
+							<span class="avb">Cash on Delivery available</span>
+							<span class="material-symbols-outlined" style="font-size:14px; padding-left: 10px; padding-top: 3px;">help</span>
+						</div>
+					</div>
+					<div class="imp  d-md-flex d-none">
+						<p>Important Note</p>
+						<span>Product may vary from what is shown in the image.</span>
+					</div>
+					<div class="sell  d-md-flex d-none">
+						<div class="sellTxt d-flex mt-3">
+							<p class="seller">Seller</p>
+							<div class="ess">
+								<span class="es">ESTON24X7</span>
+								<img src="./Assets/four.png" alt="img">
+								<div class="day">
+									<ul class="days">
+										<li>7 Days Replacement Policy</li>
+										<span class="material-symbols-outlined" style="font-size: 17px; color:#878787; padding-left:5px;">help</span>
+									</ul>
+									<p class="see">See other sellers</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="super mt-3 d-md-flex d-none">
+						<img src="./Assets/super.png" alt="img">
+					</div>
+					<div class="protect mt-3 d-md-flex d-none">
+						<h4>Protect your Product</h4>
+					</div>
+					<div class="bajaj mt-3 d-md-flex d-none">
+						<div class="bajajImg">
+							<img src="./Assets/bajaj.png" alt="img">
+						</div>
+						<div class="bajajTxt">
+							<h5>Digital Suraksha for Rs 10000 by Bajaj Allianz</h5>
+							<p class="financial">Get your financial losses covered for online transaction frauds on all bank accounts, credit/ debit cards, mobile wallets. Covers scam calls, OTP SMS frauds, UPI, netbanking, Cyber Attacks, Sim-swapping, Phishing, Spoofing and more.</p>
+							<a href="#">Know More</a>
+							<p class="digital">Digital Suraksha for Rs 10000 by Bajaj Allianz</p>
+							<div class="rupees">
+								<span class="rp">₹20</span><span class="cut"><del>₹40</del></span><span class="offf">50% off</span>
+							</div>
+						</div>
+					</div>
+					<div class="bajaj mt-3 d-md-flex d-none">
+						<div class="bajajImg">
+							<img src="./Assets/assists.png" alt="img">
+						</div>
+						<div class="bajajTxt">
+							<h5>Home Content Protection for INR 25,000</h5>
+							<p class="financial">This plan comes with Sum Insured of INR 25,000 and ensures the safety of various household items like furniture, fixtures, tools, electronics, clothing, and more from Natural Calamities like Fire, Earthquake, Lighting, Flood, Hurricane and more.</p>
+							<a href="#">Know More</a>
+							<p class="digital">Tip : Home Content Protection by OneAssist</p>
+							<div class="rupees">
+								<span class="rp">₹29</span><span class="cut"><del>₹39</del></span><span class="offf">25% off</span>
+							</div>
+						</div>
+					</div>
+					<div class="items d-flex align-items-center justify-content-between d-xl-flex d-none">
+						<div class="ftItem d-flex align-items-center">
+							<div class="oneIt">
+								<div class="ft">
+									<span>1 Item</span>
+								</div>
+								<div class="sd">
+									<span class="three"><b>₹399</b></span>
+									<span class="material-symbols-outlined add">add</span>
+								</div>
+							</div>
+							<div class="oneIt">
+								<div class="ft">
+									<span>2 Add-ons</span>
+								</div>
+								<div class="sd">
+									<span class="three"><b>₹499</b></span>
+									<span class="material-symbols-outlined add">equal</span>
+								</div>
+							</div>
+							<div class="oneIt">
+								<div class="ft">
+									<span>Total</span>
+								</div>
+								<div class="sd">
+									<span class="three"><b>₹448</b></span>
+								</div>
+							</div>
+						</div>
+						<div class="itemsBtn ">
+							<button class="itemBtns">
+								<span class="material-symbols-outlined">shopping_cart</span>
+								<span>ADD 3 ITEMS TO CART</span>
+							</button>
+						</div>
+					</div>
+					<div class="specs">
+						<h3>Specifications</h3>
+					</div>
+					<div class="general">
+						<div class="generalCont">
+							<div class="gen">General</div>
+						</div>
+						<div class="generalMain">
+							<div class="generalMainSet" style="gap:150px;">
+								<span class="genTxt">Sound Support</span>
+								<span class="cond">No</span>
+							</div>
+							<div class="generalMainSet" style="gap:181px;">
+								<span class="genTxt">Washable</span>
+								<span class="cond">No</span>
+							</div>
+							<div class="generalMainSet" style="gap:186px;">
+								<span class="genTxt">Ideal For</span>
+								<span class="cond">Boys and Girls</span>
+							</div>
+							<div class="generalMainSet" style="gap:155px;">
+								<span class="genTxt">Minimum Age</span>
+								<span class="cond">1 years</span>
+							</div>
+							<div class="generalMainSet" style="gap:150px;">
+								<span class="genTxt">Filling Material</span>
+								<span class="cond">PLUSH</span>
+							</div>
+							<div class="generalMainSet" style="gap:133px;">
+								<span class="genTxt">External Material</span>
+								<span class="cond">COTTON</span>
+							</div>
+							<div class="generalMainSet" style="gap:159px;">
+								<span class="genTxt">Net Quantity</span>
+								<span class="cond">10</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

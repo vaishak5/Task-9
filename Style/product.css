@@ -646,13 +646,18 @@
 	outline: none;
 }
 
+.specs {
+	border-bottom: 1px solid #ddd;
+}
+
 .specs h3 {
 	padding: 24px 30px 24px 24px;
-	border-bottom: 1px solid #ddd;
+
 }
 
 .general {
 	padding: 3px 24px 34px;
+	border-bottom: 1px solid #ddd;
 }
 
 .generalMainSet {
@@ -661,8 +666,303 @@
 	gap: 125px;
 }
 
+.reviews {
+	display: flex;
+	justify-content: space-between;
+}
+
+.revHead {
+	font-weight: 500;
+	font-size: 24px;
+	padding: 24px 0 0 24px;
+}
+
+.rateBtn button {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .26);
+	border: none;
+	font-size: 14px;
+	color: #212121;
+	padding: 16px 36px;
+	cursor: pointer;
+	margin: 18px 18px 0 0;
+	background-color: white;
+	font-weight: 550;
+}
+
 .generalMain {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+}
+
+.genTxt {
+	font-size: 14px;
+	color: #878787;
+}
+
+.cond {
+	font-size: 14px;
+	color: #212121;
+}
+
+.read {
+	padding: 24px;
+	font-size: 16px;
+	color: #2874f0;
+	border-bottom: 1px solid #ddd;
+}
+
+.read a {
+	text-decoration: none;
+	outline: none;
+}
+
+.frequent {
+	border-bottom: 1px solid #ddd;
+}
+
+.frequentTxt {
+	padding: 24px 0 0 24px;
+}
+
+.frequentTxt span {
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.dollImages {
+	padding: 16px;
+}
+
+.dollSet {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dollSetTxt p {
+	font-size: 14px;
+}
+
+.thirtyTwo {
+	font-size: 14px;
+	color: #878787;
+}
+
+.addd {
+	font-size: 33px;
+	color: #878787;
+	padding-left: 20px;
+}
+
+.dollAd {
+	display: flex;
+}
+
+.dollImagesSd {
+	display: flex;
+}
+
+.dollSett {
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	font-size: 30px;
+}
+
+.rateRevs {
+	color: #878787;
+	font-size: 14px;
+}
+
+.num {
+	padding: 24px;
+}
+
+.numRate {
+	display: flex;
+}
+
+.rateImg {
+	padding: 24px;
+}
+
+.comments {
+	padding: 24px;
+}
+
+.revCmt {
+	display: flex;
+	justify-content: space-between;
+}
+
+.lord {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.cmtFt span {
+	padding-left: 12px;
+	padding-top: 3px;
+	font-size: 14px;
+	color: #212121;
+	font-weight: 500;
+}
+
+.cmtFt p {
+	line-height: 1.4;
+	font-size: 14px;
+	color: #212121;
+}
+
+.revName {
+	font-size: 12px;
+	color: #878787;
+	margin-right: 8px;
+}
+
+.lord p {
+	font-size: 14px;
+	color: #878787;
+}
+
+.lord span {
+	font-size: 14px;
+	color: #878787;
+}
+
+.rateRev {
+	border-bottom: 1px solid #ddd;
+}
+
+.comments {
+	border-bottom: 1px solid #ddd;
+}
+
+.allRev {
+	font-size: 16px;
+	color: #2874f0;
+	cursor: pointer;
+	padding: 24px;
+	font-weight: 550;
+	border-bottom: 1px solid #ddd;
+}
+
+.allRev a {
+	text-decoration: none;
+	outline: none;
+}
+
+.allRev span {
+	color: #878787;
+}
+
+.doubts {
+	padding: 16px 24px;
+	border-bottom: 1px solid #ddd;
+}
+
+.post {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .26);
+	border: none;
+	color: #212121;
+	font-size: 14px;
+	width: 232px;
+	padding: 16px 0;
+	background-color: #f9f9f9;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.doubts span {
+	font-size: 24px;
+	font-weight: 520;
+	color: #212121;
+}
+
+.safe {
+	margin: 4px 15px 8px;
+	text-align: center;
+}
+
+.safeTxt {
+	font-size: 14px;
+	color: #878787;
+	padding-left: 6px;
+}
+
+.might {
+	padding: 32px 32px 24px;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.mightImages {
+	margin: 0 32px;
+	display: flex;
+}
+
+.mightImagesTxt p {
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.mightImagesTxt {
+	padding: 24px;
+}
+
+.cube {
+	display: flex;
+	flex-direction: column;
+}
+
+.cube span {
+	font-size: 18px;
+	color: #878787;
+	margin-top: 4px;
+}
+
+.shop {
+	margin-top: 5px;
+	color: #fff;
+	background: #2874f0;
+	border-radius: 2px;
+	border: none;
+	padding: 4px 1px;
+	box-shadow: none;
+	width: 106px;
+}
+
+.simProdTxt span {
+	font-weight: 500;
+	padding-left: 20px;
+	font-size: 22px;
+}
+
+.imgg {
+	display: flex;
+}
+
+.simProdImagesSet {
+	margin: 0px 32px;
+}
+
+.imgcon {
+	padding-left: 10px;
+}
+
+.note {
+	padding-left: 10px;
+}
+
+.note p {
+	font-size: 12px;
+	color: #878787;
+}
+
+.zuku {
+	font-size: 14px;
 }

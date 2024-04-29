@@ -1,261 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Place Order Page</title>
-      <link rel="stylesheet" href="./Style/placeOrder.css">
-      <link rel="stylesheet" href="./Style/icon.css">
-   </head>
-   <body>
-      <div class="header">
-         <div class="headerNav">
-            <div class="headerNavFirst">
-               <div class="flipkartlogo">
-                  <div class="flipkartImg">
-                     <img src="./Assets/flipkartLogo.png" alt="Flipkart Logo" width="75">
-                  </div>
-                  <div class="explore">
-                     <a href="#">
-                        <p class="exploreTxt">Explore <span class="plus">Plus</span></p>
-                     </a>
-                     <div class="starImg">
-                        <img src="./Assets/star.png" alt="Star" width="10">
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="main">
-      <div class="mainBody">
-         <div class="mainSection">
-            <div class="mainSectionFirst">
-               <div class="login">
-                  <div class="number">
-                     <span class="one">1</span>
-                  </div>
-                  <div class="logTxt">
-                     <div class="log">
-                        <span>LOGIN</span>
-                        <svg height="10" width="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="_1t8m48">
-                           <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" stroke="#2974f0"></path>
-                        </svg>
-                     </div>
-                     <div class="mob">
-                        <span>+919789716827</span>
-                     </div>
-                  </div>
-               </div>
-               <div class="btn">
-                  <button class="changeBtn">CHANGE</button>
-               </div>
-            </div>
-            <div class="mainSectionSecond">
-               <div class="mainSectionSecondContents">
-                  <div class="delivery">
-                     <span class="numberSd">2</span>
-                     <span class="deltxt">DELIVERY ADDRESS</span>
-                  </div>
-               </div>
-            </div>
-            <!--address-->
-            <div class="address">
-               <div class="circle">
-                  <img src="./Assets/circle.png" alt="img">
-               </div>
-               <div class="addressMain">
-                  <div class="addAddress">
-                     <span>ADD A NEW ADDRESS</span>
-                  </div>
-                  <div class="location">
-                     <button class="currentLoc">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="_3bKK5G">
-                           <g fill="none" fill-rule="evenodd">
-                              <path d="M0 0h16v16H0z"></path>
-                              <path class="" fill="#fff" d="M8 5.3a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 1 0 0-5.4zm6 2A6 6 0 0 0 8.7 2V.7H7.3V2A6 6 0 0 0 2 7.3H.7v1.4H2A6 6 0 0 0 7.3 14v1.3h1.4V14A6 6 0 0 0 14 8.7h1.3V7.3H14zm-6 5.4A4.7 4.7 0 0 1 3.3 8 4.7 4.7 0 0 1 8 3.3 4.7 4.7 0 0 1 12.7 8 4.7 4.7 0 0 1 8 12.7z"></path>
-                           </g>
-                        </svg>
-                        <span>Use my current location</span>
-                  </div>
-                  <div class="mainForm">
-                  <div class="contents">
-                  <div class="formSet">
-                  <div class="nameSet">
-                  <input type="text" class="names" placeholder="Name">
-                  </div>
-                  <div class="digitNo">
-                  <input type="text" class="no" placeholder="10-digit mobile number">
-                  </div>
-                  </div>
-                  <div class="formSetSecond">
-                  <div class="pincode">
-                  <input type="text" class="code" placeholder="Pincode">
-                  </div>
-                  <div class="local">
-                  <input type="text" class="loc" placeholder="Locality">
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  <div class="formSetThird">
-                  <div class="area">
-                  <input type="text" class="ar" placeholder="Address (Area and Street)">
-                  </div>
-                  </div>
-                  <div class="detail">
-                  <div class="formSetFourth">
-                  <div class="city">
-                  <input type="text" class="town" placeholder="City/District/Town">
-                  </div>
-                  </div>
-                  <div class="formSetFifth">
-                  <div class="state">
-                  <input type="text" class="st" placeholder="state">
-                  </div>
-                  <div class="oppmain">
-                  <div class="opp">
-                  <p>--Select State--</p>
-                  </div>
-                  <div class="sym">
-                  <span class="material-symbols-outlined">arrow_drop_down</span>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  <div class="landmark">
-                  <div class="formSetSixth">
-                  <div class="land">
-                  <input type="text" class="lmark" placeholder="Landmark (Optional)">
-                  </div>
-                  </div>
-                  <div class="formSetSeventh">
-                  <div class="altern">
-                  <input type="text" class="altph" placeholder="Alternate Phone (Optional)">
-                  </div>
-                  </div>
-                  </div>
-                  <div class="time">
-                  <p>Address Type</p>
-                  <div class="delivered">
-                  <div class="home">
-                  <input type="radio">
-                  <span>Home (All day delivery)</span>
-                  </div>
-                  <div class="work">
-                  <input type="radio">
-                  <span>Work (Delivery between 10 AM-5 PM)</span>
-                  </div>
-                  </div>
-                  </div>
-                  <div class="saveHere">
-                  <button class="saveBtn">SAVE AND DELIVER HERE</button>
-                  </div>
-               </div>
-            </div>
-            <div class="order">
-               <div class="number">
-                  <span class="one">3</span>
-               </div>
-               <div class="orderTxt">
-                  <div class="ord">
-                     <span>ORDER SUMMARY</span>
-                  </div>
-               </div>
-            </div>
-            <div class="payment">
-               <div class="number">
-                  <span class="one">4</span>
-               </div>
-               <div class="paymentTxt">
-                  <div class="pay">
-                     <span>PAYMENT OPTIONS</span>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--Second Section-->
-         <div class="secondSection">
-            <div class="secondSectionFirst">
-               <div class="price">
-                  <span class="prDet">PRICE DETAILS</span>
-               </div>
-               <div class="amountSet">
-                  <!--<div class="amount">-->
-                  <div class="amountDetails">
-                     <div class="priceOne">
-                        <span class="priceOneItem">Price(1 item)</span>
-                     </div>
-                     <div class="amtOne">
-                        <span class="amt">₹9,200</span>
-                     </div>
-                  </div>
-                  <!--</div>-->
-                  <!--<div class="amountSecond">-->
-                  <div class="amountDetailsSecond">
-                     <div class="priceSnd">
-                        <span class="priceSndItem">Discount</span>
-                     </div>
-                     <div class="amtTwo">
-                        <span class="amtSnd" style="color:#388e3c;">-₹3,401</span>
-                     </div>
-                  </div>
-                  <!--</div>-->
-                  <!--<div class="amountThd">-->
-                  <div class="amountDetailsThd">
-                     <div class="priceThd">
-                        <span class="priceThdItem">Delivery Charges</span>
-                     </div>
-                     <div class="amtThree">
-                        <span class="amtThd"><del style="color:#717478;">₹40  </del> <span style="color:#388e3c;"> Free</span></span>
-                     </div>
-                  </div>
-                  <!--</div>-->
-                  <div class="total">
-                     <div class="totalAmt">
-                        <span>Total Amount</span>
-                     </div>
-                     <div class="totalAmtRs">
-                        <span> ₹5,799</span>
-                     </div>
-                  </div>
-                  <div class="saved">
-                     <p>You will save ₹3,401 on this order</p>
-                  </div>
-               </div>
-            </div>
-            <div class="safe">
-               <div class="safeContent">
-                  <div class="guardImg">
-                     <img src="./Assets/guard.png" alt="img">
-                  </div>
-                  <div class="guardTxt">
-                     <p>Safe and Secure Payments.Easy returns.100% Authentic products.</p>
-                  </div>
-               </div>
-               </div
-            </div>
-         </div>
-      </div>
-      <!--Footer-->
-      <div class="footer">
-         <div class="footerContents">
-            <div class="footerFirst">
-               <span class="policy">Policies:</span>
-               <span class="return">Return Policy</span>
-               <span class="term">Term of use</span>
-               <span class="security">Security</span>
-               <span class="privacy">Privacy</span>
-               <span class="infringement">Infringement</span>
-            </div>
-            <div class="footerSecond">
-               <span class="corp">© 2007-2024<span>Flipkart.com</span></span>
-            </div>
-            <div class="footerThird">
-               <span>Need help?</span>
-               <span>Visit the <a href="#">Help Center </a> or <a href="#">Contact Us </a></span>
-            </div>
-         </div>
-      </div>
-   </body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Place Order Page</title>
+		<link rel="stylesheet" href="./Style/placeOrder.css">
+		<link rel="stylesheet" href="./Style/icon.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="headerNav">
+				<div class="headerNavFirst">
+					<div class="flipkartlogo">
+						<div class="flipkartImg">
+							<img src="./Assets/flipkartLogo.png" alt="Flipkart Logo" width="75">
+						</div>
+						<div class="explore">
+							<a href="#">
+								<p class="exploreTxt">Explore <span class="plus">Plus</span></p>
+							</a>
+							<div class="starImg">
+								<img src="./Assets/star.png" alt="Star" width="10">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="mainBody">
+				<div class="mainSection">
+					<div class="mainSectionFirst">
+						<div class="login">
+							<div class="number">
+								<span class="one">1</span>
+							</div>
+							<div class="logTxt">
+								<div class="log">
+									<span>LOGIN</span>
+									<svg height="10" width="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="_1t8m48">
+										<path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" stroke="#2974f0"></path>
+									</svg>
+								</div>
+								<div class="mob">
+									<span>+919789716827</span>
+								</div>
+							</div>
+						</div>
+						<div class="btn">
+							<button class="changeBtn">CHANGE</button>
+						</div>
+					</div>
+					<div class="mainSectionSecond">
+						<div class="mainSectionSecondContents">
+							<div class="delivery">
+								<span class="numberSd">2</span>
+								<span class="deltxt">DELIVERY ADDRESS</span>
+							</div>
+						</div>
+					</div>
+					<!--address-->
+					<div class="address">
+						<div class="circle">
+							<img src="./Assets/circle.png" alt="img">
+						</div>
+						<div class="addressMain">
+							<div class="addAddress">
+								<span>ADD A NEW ADDRESS</span>
+							</div>
+							<div class="location">
+								<button class="currentLoc">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="_3bKK5G">
+										<g fill="none" fill-rule="evenodd">
+											<path d="M0 0h16v16H0z"></path>
+											<path class="" fill="#fff" d="M8 5.3a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 1 0 0-5.4zm6 2A6 6 0 0 0 8.7 2V.7H7.3V2A6 6 0 0 0 2 7.3H.7v1.4H2A6 6 0 0 0 7.3 14v1.3h1.4V14A6 6 0 0 0 14 8.7h1.3V7.3H14zm-6 5.4A4.7 4.7 0 0 1 3.3 8 4.7 4.7 0 0 1 8 3.3 4.7 4.7 0 0 1 12.7 8 4.7 4.7 0 0 1 8 12.7z"></path>
+										</g>
+									</svg>
+									<span>Use my current location</span>
+								</button>
+							</div>
+							<div class="mainForm">
+								<div class="contents">
+									<div class="formSet">
+										<div class="nameSet">
+											<input type="text" class="names" placeholder="Name">
+										</div>
+										<div class="digitNo">
+											<input type="text" class="no" placeholder="10-digit mobile number">
+										</div>
+									</div>
+									<div class="formSetSecond">
+										<div class="pincode">
+											<input type="text" class="code" placeholder="Pincode">
+										</div>
+										<div class="local">
+											<input type="text" class="loc" placeholder="Locality">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="formSetThird">
+								<div class="area">
+									<input type="text" class="ar" placeholder="Address (Area and Street)">
+								</div>
+							</div>
+							<div class="detail">
+								<div class="formSetFourth">
+									<div class="city">
+										<input type="text" class="town" placeholder="City/District/Town">
+									</div>
+								</div>
+								<div class="formSetFifth">
+									<div class="state">
+										<input type="text" class="st" placeholder="state">
+									</div>
+									<div class="oppmain">
+										<div class="opp">
+											<p>--Select State--</p>
+										</div>
+										<div class="sym">
+											<span class="material-symbols-outlined">arrow_drop_down</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="landmark">
+								<div class="formSetSixth">
+									<div class="land">
+										<input type="text" class="lmark" placeholder="Landmark (Optional)">
+									</div>
+								</div>
+								<div class="formSetSeventh">
+									<div class="altern">
+										<input type="text" class="altph" placeholder="Alternate Phone (Optional)">
+									</div>
+								</div>
+							</div>
+							<div class="time">
+								<p>Address Type</p>
+								<div class="delivered">
+									<div class="home">
+										<input type="radio">
+										<span>Home (All day delivery)</span>
+									</div>
+									<div class="work">
+										<input type="radio">
+										<span>Work (Delivery between 10 AM-5 PM)</span>
+									</div>
+								</div>
+							</div>
+							<div class="saveHere">
+								<button class="saveBtn">SAVE AND DELIVER HERE</button>
+							</div>
+						</div>
+					</div>
+					<div class="order">
+						<div class="number">
+							<span class="one">3</span>
+						</div>
+						<div class="orderTxt">
+							<div class="ord">
+								<span>ORDER SUMMARY</span>
+							</div>
+						</div>
+					</div>
+					<a href="payment.html" class="payable" style="text-decoration:none;">
+						<div class="payment">
+							<div class="number">
+								<span class="one">4</span>
+							</div>
+							<div class="paymentTxt">
+								<div class="pay">
+									<span>PAYMENT OPTIONS</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!--Second Section-->
+				<div class="secondSection">
+					<div class="secondSectionFirst">
+						<div class="price">
+							<span class="prDet">PRICE DETAILS</span>
+						</div>
+						<div class="amountSet">
+							<!--<div class="amount">-->
+							<div class="amountDetails">
+								<div class="priceOne">
+									<span class="priceOneItem">Price(1 item)</span>
+								</div>
+								<div class="amtOne">
+									<span class="amt">₹9,200</span>
+								</div>
+							</div>
+							<!--</div>-->
+							<!--<div class="amountSecond">-->
+							<div class="amountDetailsSecond">
+								<div class="priceSnd">
+									<span class="priceSndItem">Discount</span>
+								</div>
+								<div class="amtTwo">
+									<span class="amtSnd" style="color:#388e3c;">-₹3,401</span>
+								</div>
+							</div>
+							<!--</div>-->
+							<!--<div class="amountThd">-->
+							<div class="amountDetailsThd">
+								<div class="priceThd">
+									<span class="priceThdItem">Delivery Charges</span>
+								</div>
+								<div class="amtThree">
+									<span class="amtThd"><del style="color:#717478;">₹40  </del> <span style="color:#388e3c;"> Free</span></span>
+								</div>
+							</div>
+							<!--</div>-->
+							<div class="total">
+								<div class="totalAmt">
+									<span>Total Amount</span>
+								</div>
+								<div class="totalAmtRs">
+									<span> ₹5,799</span>
+								</div>
+							</div>
+							<div class="saved">
+								<p>You will save ₹3,401 on this order</p>
+							</div>
+						</div>
+					</div>
+					<div class="safe">
+						<div class="safeContent">
+							<div class="guardImg">
+								<img src="./Assets/guard.png" alt="img">
+							</div>
+							<div class="guardTxt">
+								<p>Safe and Secure Payments.Easy returns.100% Authentic products.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Footer-->
+			<div class="footer">
+				<div class="footerContents">
+					<div class="footerFirst">
+						<span class="policy">Policies:</span>
+						<span class="return">Return Policy</span>
+						<span class="term">Term of use</span>
+						<span class="security">Security</span>
+						<span class="privacy">Privacy</span>
+						<span class="infringement">Infringement</span>
+					</div>
+					<div class="footerSecond">
+						<span class="corp">© 2007-2024<span>Flipkart.com</span></span>
+					</div>
+					<div class="footerThird">
+						<span>Need help?</span>
+						<span>Visit the <a href="#">Help Center </a> or <a href="#">Contact Us </a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

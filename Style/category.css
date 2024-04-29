@@ -604,3 +604,15 @@
 .view {
 	cursor: pointer;
 }
+.productSet {
+	text-decoration:none;
+	outline:none;
+}
+.productSet p{
+	font-size:14px;
+	color:#333333;
+	text-decoration:none;
+}
+.baby:hover{
+	color: #2874f0;
+}

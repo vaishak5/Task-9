@@ -3,16 +3,33 @@
 	padding: 0px;
 	font-family: Roboto, Arial, sans-serif;
 }
+
 .headerNav {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 	background-color: #2874f0;
-	padding: 10px;
+	padding: 8px;
 }
-.flipkartlogo{
-	cursor:pointer;
+
+.headerNavFirst {
+	display: flex;
+	align-items: center;
 }
+
+.headerNavSecond {
+	display: flex;
+	gap: 30px;
+	margin-left: 36px;
+	align-items: center;
+
+}
+
+.flipkartlogo {
+	cursor: pointer;
+	padding-left: 30px;
+}
+
 .explore {
 	display: flex;
 	align-items: center;
@@ -36,6 +53,7 @@
 .plus {
 	color: yellow;
 }
+
 .search {
 	display: flex;
 	align-items: center;
@@ -44,7 +62,7 @@
 
 .searchBox {
 	padding: 5px;
-	width: 403px;
+	width: 415px;
 	border: 1px solid #ddd;
 	padding-left: 10px;
 	margin-left: 20px;
@@ -56,19 +74,23 @@
 	width: 225px;
 	outline: none;
 }
-.searchIcon svg{
-	cursor:pointer;
+
+.searchIcon svg {
+	cursor: pointer;
+	padding-top: 3px;
 }
+
 .login {
 	padding: 6px;
 	border: 1px solid #ddd;
-	padding-left: 10px;
-	margin-left: 20px;
+
+	margin-left: 15px;
 	background-color: white;
 	text-align: center;
-	cursor:pointer;
+	cursor: pointer;
 
 }
+
 
 .login input {
 	border-style: none;
@@ -78,7 +100,7 @@
 	color: #2874F0;
 	font-weight: 600;
 	outline: none;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .sellerTxt {
@@ -86,7 +108,7 @@
 	font-size: 16px;
 	font-family: Roboto, Arial, sans-serif;
 	font-weight: 600;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .more {
@@ -95,7 +117,8 @@
 	color: white;
 	font-family: Roboto, Arial, sans-serif;
 	font-weight: 600;
-	cursor:pointer;
+	cursor: pointer;
+	margin-left: 10px;
 }
 
 .cart {
@@ -105,7 +128,8 @@
 	font-family: Roboto, Arial, sans-serif;
 	gap: 10px;
 	font-weight: 600;
-	cursor:pointer;
+	cursor: pointer;
+	margin-left: 10px;
 }
 
 .headerSecond {
@@ -120,74 +144,100 @@
 
 .headerSecondNav {
 	display: flex;
-	gap: 63px;
-	margin-left: 20px;
-	cursor:pointer;
+	justify-content: space-evenly;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+	font-family: Roboto, Arial, sans-serif;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: #212121;
 
 }
-.electronics:hover{
+
+.electronics:hover {
 	color: #2874f0;
 }
-.electronics span:hover{
+
+.electronics span:hover {
 	color: #2874f0;
 }
-.tv:hover{
+
+.tv:hover {
 	color: #2874f0;
 }
-.tv span:hover{
+
+.tv span:hover {
 	color: #2874f0;
 }
-.men:hover{
+
+.men:hover {
 	color: #2874f0;
 }
-.men span:hover{
+
+.men span:hover {
 	color: #2874f0;
 }
-.women:hover{
+
+.women:hover {
 	color: #2874f0;
 }
-.women span:hover{
+
+.women span:hover {
 	color: #2874f0;
 }
-.baby:hover{
+
+.baby:hover {
 	color: #2874f0;
 }
-.baby span:hover{
+
+.baby span:hover {
 	color: #2874f0;
 }
-.home:hover{
+
+.home:hover {
 	color: #2874f0;
 }
-.home span:hover{
+
+.home span:hover {
 	color: #2874f0;
 }
-.sports:hover{
+
+.sports:hover {
 	color: #2874f0;
 }
-.sports span:hover{
+
+.sports span:hover {
 	color: #2874f0;
 }
-.flights:hover{
+
+.flights:hover {
 	color: #2874f0;
 }
-.flights span:hover{
+
+.flights span:hover {
 	color: #2874f0;
 }
-.offer:hover{
+
+.offer:hover {
 	color: #2874f0;
 }
-.offer span:hover{
+
+.offer span:hover {
 	color: #2874f0;
 }
+
 .mainSection {
 	display: flex;
 	justify-content: center;
 	padding: 15px;
-	
+	background-color: #f1f3f6;
+
 }
 
 .mainSectionFirst {
-	width: 315px;
+	width: 336px;
 }
 
 .mainSectionSecond {
@@ -197,7 +247,8 @@
 	border-bottom: 1px solid #ddd;
 	background-color: #fff;
 	border-right: 1px solid #ddd;
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	width: 437px;
+	padding: 56px 35px 16px;
 }
 
 .loginSection {
@@ -226,6 +277,7 @@
 .log p {
 	color: #DBDBDB;
 	font-weight: 550;
+	line-height: 1.5;
 }
 
 .access p {
@@ -233,7 +285,7 @@
 }
 
 .enter {
-	padding: 40px 33px;
+	/*padding: 40px 33px;*/
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
@@ -246,9 +298,10 @@
 .details input {
 	border-style: none;
 	outline: none;
-	font-size: 16px;
-	padding:8px 10px 10px 0;
-	color:#000;
+	font-size: 14px;
+	padding: 8px 10px 10px 0;
+	color: #000;
+	font-weight: 500;
 }
 
 .privacyTxt p {
@@ -262,14 +315,23 @@
 }
 
 .reqBtn {
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	justify-content: center;
+	display: flex;
+	text-decoration: none;
+}
+
+.reqst {
 	width: 100%;
 	padding: 10px;
 	border-style: none;
 	background-color: #fb641b;
-	color: white;
-	cursor:pointer;
+	cursor: pointer;
 
 }
+
 
 .createAccount {
 	text-align: center;
@@ -310,14 +372,16 @@
 	font-size: 12px;
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 10px;
 }
-.aboutBelow p{
-	cursor:pointer;
+
+.aboutBelow p {
+	cursor: pointer;
 }
-.aboutBelow p:hover{
-	color:white;
-	text-decoration:underline;
+
+.aboutBelow p:hover {
+	color: white;
+	text-decoration: underline;
 }
 
 .groupCompany {
@@ -336,14 +400,16 @@
 	font-size: 12px;
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 10px;
 }
-.groupBelow p{
-	cursor:pointer;
+
+.groupBelow p {
+	cursor: pointer;
 }
-.groupBelow p:hover{
-	color:white;
-	text-decoration:underline;
+
+.groupBelow p:hover {
+	color: white;
+	text-decoration: underline;
 }
 
 .help {
@@ -362,15 +428,18 @@
 	font-size: 12px;
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 10px;
 }
-.helpBelow p{
-	cursor:pointer;
+
+.helpBelow p {
+	cursor: pointer;
 }
-.helpBelow p:hover{
-	color:white;
-	text-decoration:underline;
+
+.helpBelow p:hover {
+	color: white;
+	text-decoration: underline;
 }
+
 .consumer {
 	display: flex;
 	flex-direction: column;
@@ -388,15 +457,18 @@
 	font-size: 12px;
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 10px;
 }
-.consumerBelow p{
-	cursor:pointer;
+
+.consumerBelow p {
+	cursor: pointer;
 }
-.consumerBelow p:hover{
-	color:white;
-	text-decoration:underline;
+
+.consumerBelow p:hover {
+	color: white;
+	text-decoration: underline;
 }
+
 .line {
 	border: 1px solid #454d5e;
 	margin-left: 10px;
@@ -417,7 +489,7 @@
 .mailBelow {
 	color: #ffffff;
 	font-size: 12px;
-	line-height: 1.5
+	line-height: 1.5;
 }
 
 .social p {
@@ -430,8 +502,9 @@
 	align-items: center;
 	gap: 15px;
 }
-.socialIcons img{
-	cursor:pointer;
+
+.socialIcons img {
+	cursor: pointer;
 }
 
 .registeredOffice {
@@ -449,7 +522,7 @@
 .registeredOfficeBelow {
 	color: #ffffff;
 	font-size: 12px;
-	line-height: 1.5
+	line-height: 1.5;
 }
 
 .registeredOfficeBelow a {
@@ -463,7 +536,7 @@
 	margin-top: 40px;
 	width: 100%;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -475,7 +548,7 @@
 .footerBelowSet {
 	display: flex;
 	font-size: 14px;
-	gap: 30px;
+	gap: 50px;
 }
 
 .corporate {
@@ -487,6 +560,15 @@
 	margin-top: 2px;
 
 }
-.footerBelowSet img{
-	cursor:default;
+
+.footerBelowSet img {
+	cursor: default;
+}
+
+.line {
+	margin-left: 13px;
+}
+
+.aSeller {
+	padding-left: 55px;
 }

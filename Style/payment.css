@@ -59,7 +59,7 @@
 .mainSection {
 	padding: 8px;
 	width: 70%;
-	margin-top:10px;
+	margin-top: 10px;
 
 }
 
@@ -69,7 +69,7 @@
 	justify-content: space-between;
 	padding: 16px 24px;
 	border-bottom: 1px solid #ddd;
-	cursor:default;
+	cursor: default;
 }
 
 .login {
@@ -93,14 +93,14 @@
 .logTxt {
 	display: flex;
 	flex-direction: column;
-	cursor:default;
-	
+	cursor: default;
+
 }
 
 .log {
 	color: #878787;
 	font-size: 16px;
-	font-weight:600;
+	font-weight: 600;
 	margin-bottom: 6px;
 }
 
@@ -122,7 +122,7 @@
 	margin-top: 20px;
 	border-bottom: 1px solid #ddd;
 	background-color: white;
-	cursor:default;
+	cursor: default;
 }
 
 .mainSectionSecondContents {
@@ -145,7 +145,7 @@
 	font-size: 16px;
 	color: #878787;
 	font-weight: 600;
-	cursor:default;
+	cursor: default;
 }
 
 
@@ -166,17 +166,21 @@
 .secondCont {
 	display: flex;
 }
-.mainSectionThird{
-	display:flex;
-	cursor:default;
+
+.mainSectionThird {
+	display: flex;
+	cursor: default;
 }
-.mainSectionThirdContents{
-	display:flex;
+
+.mainSectionThirdContents {
+	display: flex;
 }
-.ThirdCont{
-	display:flex;
-	align-items:center;
+
+.ThirdCont {
+	display: flex;
+	align-items: center;
 }
+
 .mainSectionSecond {
 	margin-top: 20px;
 }
@@ -184,7 +188,7 @@
 .mainSectionFourthContents {
 	padding: 14px 24px;
 	background-color: #2874f0;
-	cursor:default;
+	cursor: default;
 }
 
 .numberSd {
@@ -204,8 +208,8 @@
 }
 
 .mainSectionFourth {
-	
-	margin-top:20px;
+
+	margin-top: 20px;
 }
 
 .address {
@@ -220,107 +224,129 @@
 
 
 }
-.paymentDetails{
+
+.paymentDetails {
 	display: flex;
-    
-    padding-top: 10px;
+
+	padding-top: 10px;
 }
-.upi{
-	padding-top:3px;
+
+.upi {
+	padding-top: 3px;
 }
-.upi input{
-	cursor:pointer;
+
+.upi input {
+	cursor: pointer;
 }
-.upiLogo{
+
+.upiLogo {
 	display: flex;
 }
-.upiLogo img{
-	cursor:pointer;
+
+.upiLogo img {
+	cursor: pointer;
 }
-.paymentSet{
+
+.paymentSet {
 	display: flex;
-	background-color:white;
-	border-bottom: 1px solid #ddd;
-    padding: 16px 25px;
+	background-color: white;
+	border-bottom: 1px solid #f0f0f0;
+	padding: 16px 25px;
 }
-.upiOptions{
+
+.upiOptions {
 	padding-left: 15px;
-    padding-top: 8px;
+	padding-top: 8px;
 }
-.upiLogo{
-	display:flex;
-	gap:20px;
-}
-.upiCont{
+
+.upiLogo {
 	display: flex;
-    flex-direction: column;
-    gap: 10px;
+	gap: 20px;
 }
-.upiCont span{
-	font-size:14px;
-	cursor:default;
-}
-.upi span{
-	cursor:pointer;
-}
-.choose{
-	font-size:14px;
-	cursor:default;
-	color:#212121;
-}
-.options{
+
+.upiCont {
 	display: flex;
-    flex-direction: column;
-    gap: 10px;
+	flex-direction: column;
+	gap: 10px;
 }
-.options span{
-	font-size:14px;
+
+.upiCont span {
+	font-size: 14px;
+	cursor: default;
 }
-.app span{
-	color:#878787;
-	font-size:14px;
+
+.upi span {
+	cursor: pointer;
 }
-.upiLogoSd{
-	display:flex;
-	gap:20px;
-	align-items:center;
+
+.choose {
+	font-size: 14px;
+	cursor: default;
+	color: #212121;
 }
-.upiLogoSd img{
-	cursor:default;
-}
-.upiOptionsSet{
+
+.options {
 	display: flex;
-    flex-direction: column;
-	cursor:pointer;
-    gap: 10px;
+	flex-direction: column;
+	gap: 10px;
 }
-.id span{
-	font-size:14px;
+
+.options span {
+	font-size: 14px;
 }
-.mainSectionFifth{
+
+.app span {
+	color: #878787;
+	font-size: 14px;
+}
+
+.upiLogoSd {
 	display: flex;
-    align-items: center;
-    background-color: white;
-    margin-top: 10px;
-    
-    padding-left: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ddd;
+	gap: 20px;
+	align-items: center;
 }
-.upi span{
-	color:#878787;
+
+.upiLogoSd img {
+	cursor: default;
 }
+
+.upiOptionsSet {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	gap: 10px;
+}
+
+.id span {
+	font-size: 14px;
+}
+
+.mainSectionFifth {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	margin-top: 10px;
+
+	padding-left: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.upi span {
+	color: #878787;
+}
+
 .secondSection {
 	padding: 0px 0px 0px 16px;
 	margin-top: 10px;
-	width:30%;
+	width: 30%;
 
 }
 
 .secondSectionFirst {
 	margin-top: 12px;
 	background-color: white;
-	cursor:default;
+	cursor: default;
 }
 
 .price {
@@ -389,6 +415,7 @@
 	padding-bottom: 20px;
 	justify-content: space-between;
 }
+
 .saved {
 	border-top: 1px dashed #e0e0e0;
 	padding: 12px 0px;
@@ -397,55 +424,63 @@
 	font-weight: 500;
 
 }
-.bank{
+
+.bank {
 	background-color: white;
-    margin-top: 20px;
-	cursor:pointer;
+	margin-top: 20px;
+	cursor: pointer;
 }
-.bankFt{
+
+.bankFt {
 	display: flex;
-    border-bottom:1px solid #ddd;
-    justify-content: space-between;
-    padding: 22px 17px 20px 28px;
+	border-bottom: 1px solid #f0f0f0;
+	justify-content: space-between;
+	padding: 22px 17px 20px 28px;
 	line-height: 16px;
-    letter-spacing: .3px;
-	gap:2px;
+	letter-spacing: .3px;
+	gap: 2px;
 	color: #111112;
 }
-.bankFtTxt{
-	font-size:12px;
+
+.bankFtTxt {
+	font-size: 12px;
 }
-.viewall a{
+
+.viewall a {
 	display: flex;
-    justify-content: center;
-    /* border-style: none; */
-    /* outline: none; */
-    text-decoration: none;
-    outline: none;
-    color: #2a55e5;
-    font-size: 14px;
+	justify-content: center;
+	/* border-style: none; */
+	/* outline: none; */
+	text-decoration: none;
+	outline: none;
+	color: #2a55e5;
+	font-size: 14px;
 }
-.viewall{
+
+.viewall {
 	padding: 22px 17px 20px 28px;
-	border-bottom:1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
+
 .safe {
 	margin-top: 25px;
-	cursor:default;
+	cursor: default;
 }
 
 .safeContent {
 	display: flex;
 	gap: 10px;
+	padding-left: 16px;
 }
 
 .guardTxt {
 	font-size: 14px;
 	color: #878787;
+	font-weight: 550;
 }
 
 .footer {
-	border-top: 1px solid #ddd;
+
 	margin: 0 auto;
 	padding: 25px;
 	margin-top: 20px;

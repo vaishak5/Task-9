@@ -81,10 +81,14 @@
 	font-family: Roboto, Arial, sans-serif;
 	font-weight: 600;
 	cursor: pointer;
+	align-items: center;
+	padding-bottom: 8px;
 }
 
 .main {
 	border-bottom: 1px solid #ddd;
+	background-color: #f1f3f6;
+
 }
 
 .mainBody {
@@ -103,6 +107,8 @@
 
 .mainSectionFirst {
 	width: 73%;
+	background-color: white;
+	margin-top: 10px;
 }
 
 .mainSectionFirstCont {
@@ -116,7 +122,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
+
 }
 
 .flipkartTxt {
@@ -126,23 +132,31 @@
 	text-align: center;
 	width: 20%;
 	color: #2a55e5;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .grocery {
 	padding: 20px 50px;
-	cursor:pointer;
+	cursor: pointer;
 }
-.grocery p:hover{
-	color:#2a55e5;
+
+.grocery p:hover {
+	color: #2a55e5;
 }
+
 .deliveryTxt {
 	font-size: 14px;
-	
+
 }
-.deliveryCont{
-	cursor:default;
+
+.deliveryCont {
+	cursor: default;
 }
+
+.deliveryCont b {
+	color: #111112;
+}
+
 .changeBtn {
 	padding: 10px 16px;
 	background-color: #ffffff;
@@ -151,7 +165,7 @@
 	outline: none;
 	border: 1px solid #ddd;
 	border-radius: 5px;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .mainSectionSecondCont {
@@ -169,8 +183,9 @@
 	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
 	margin-top: 10px;
 }
-.tvImg img{
-	cursor:pointer;
+
+.tvImg img {
+	cursor: pointer;
 }
 
 .tvDescription a {
@@ -189,12 +204,14 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
-.tvDescription a{
-	cursor:pointer;
-	
+
+.tvDescription a {
+	cursor: pointer;
+
 }
-.tvDescription a:hover{
-	color:#2874f0;
+
+.tvDescription a:hover {
+	color: #2874f0;
 }
 
 .seller {
@@ -208,6 +225,7 @@
 
 .tvSetDetails {
 	display: flex;
+	padding-bottom: 10px;
 
 }
 
@@ -236,10 +254,11 @@
 	font-size: 14px;
 	color: #388e3c;
 }
-.offersApply{
+
+.offersApply {
 	font-size: 14px;
 	color: #388e3c;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .offerr {
@@ -264,32 +283,34 @@
 	padding-left: 13px;
 	padding-right: 11px;
 	padding-top: 5px;
-	padding-bottom: 9px;
+	padding-bottom: 6px;
 	color: #c2c2c2;
 	border-color: #e0e0e0;
-	cursor:default;
+	cursor: default;
+	background-color: white;
 }
 
 .one {
-	border: 1px solid #ddd;
-	padding-left: 18px;
-	padding-right: 18px;
+	padding-left: 16px;
+	padding-right: 16px;
 	padding-top: 5px;
 	padding-bottom: 9px;
 	background-color: white;
-	cursor:default;
+	cursor: default;
+	border: 1px solid #c2c2c2;
 }
 
 .aritt {
 	border-radius: 50%;
 	border: 1px solid #ddd;
-	padding-left: 11px;
-	padding-right: 11px;
-	padding-top: 5px;
-	padding-bottom: 9px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 6px;
+	padding-bottom: 5px;
 	font-size: 16px;
 	border-color: #e0e0e0;
-	cursor:pointer;
+	cursor: pointer;
+	background-color: white;
 }
 
 .tvDetailsSecond {
@@ -304,10 +325,11 @@
 	/* gap: 10px; */
 	font-size: 15px;
 	color: #212121;
-	cursor:pointer;
+	cursor: pointer;
 }
-.saveTxt span:hover{
-	color:#2874f0;
+
+.saveTxt span:hover {
+	color: #2874f0;
 }
 
 .tvDetailsThird {
@@ -316,12 +338,23 @@
 	border-top: 1px solid #f0f0f0;
 	background: #fff;
 	padding: 16px 22px;
-	box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .1);
+
 	margin-top: 20px;
-	
+
 }
-.placeOrder{
-	cursor:pointer;
+
+.placeOrder {
+	background: #fb641b;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+	border: none;
+	color: #fff;
+	padding: 16px 30px;
+	min-width: 250px;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	outline: none;
 }
 
 .date {
@@ -343,12 +376,16 @@
 	padding: 0px 0px 0px 16px;
 	margin-top: 10px;
 }
-.secondSectionFirst{
-	margin-top:12px;
+
+.secondSectionFirst {
+
+	background-color: white;
 }
+
 .price {
 	padding-bottom: 10px;
 	font-weight: 600;
+	padding-top: 10px;
 }
 
 .price span {
@@ -365,10 +402,10 @@
 
 .amountDetails {
 	display: flex;
-	margin-top:20px;
+	margin-top: 20px;
 
 	align-items: flex-start;
-	justify-content:space-between;
+	justify-content: space-between;
 }
 
 .amountSet {
@@ -385,8 +422,8 @@
 
 .amountDetailsSecond {
 	display: flex;
-	justify-content:space-between;
-	margin-top:20px;
+	justify-content: space-between;
+	margin-top: 20px;
 
 }
 
@@ -397,9 +434,9 @@
 
 .amountDetailsThd {
 	display: flex;
-	justify-content:space-between;
+	justify-content: space-between;
 	margin-top: 20px;
-    	padding-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .total {
@@ -409,7 +446,7 @@
 	border-top: 1px dashed #e0e0e0;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	justify-content:space-between;
+	justify-content: space-between;
 }
 
 .saved {
@@ -417,7 +454,7 @@
 	padding: 12px 0px;
 	color: #388e3c;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 600;
 
 }
 
@@ -475,7 +512,7 @@
 	padding: 16px 30px;
 	min-width: 152px;
 	font-size: 14px;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .warantyCard p {
@@ -503,12 +540,14 @@
 .safeContent {
 	display: flex;
 	gap: 10px;
-	cursor:default;
+	cursor: default;
+	padding-left: 16px;
 }
 
 .guardTxt {
 	font-size: 14px;
 	color: #878787;
+	font-weight: 600;
 }
 
 .footer {
@@ -527,31 +566,31 @@
 .return {
 	padding: 0px 5px;
 	border-right: 1px solid #878787;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .term {
 	padding: 0px 5px;
 	border-right: 1px solid #878787;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .security {
 	padding: 0px 5px;
 	border-right: 1px solid #878787;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .privacy {
 	padding: 0px 5px;
 	border-right: 1px solid #878787;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .infringement {
 	padding: 0px 5px;
 	border-right: 1px solid #878787;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .footerSecond {

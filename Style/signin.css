@@ -12,7 +12,8 @@
 	padding: 8px;
 }
 
-.headerNavFirst {
+.headerNavFirst,
+.explore {
 	display: flex;
 	align-items: center;
 }
@@ -25,14 +26,10 @@
 
 }
 
-.flipkartlogo {
+.flipkartLogo {
 	cursor: pointer;
 }
 
-.explore {
-	display: flex;
-	align-items: center;
-}
 
 .explore a {
 	text-decoration: none;
@@ -82,7 +79,6 @@
 .login {
 	padding: 6px;
 	border: 1px solid #ddd;
-
 	margin-left: 15px;
 	background-color: white;
 	text-align: center;
@@ -154,74 +150,40 @@
 
 }
 
-.electronics:hover {
-	color: #2874f0;
+.dropdown {
+	color: #D3D3D3;
 }
 
-.electronics span:hover {
-	color: #2874f0;
+.electronics,
+.tv,
+.men,
+.women,
+.baby,
+.home,
+.sports,
+.flights,
+.offer {
+	display: flex;
+	align-items: center;
 }
 
-.tv:hover {
-	color: #2874f0;
-}
-
-.tv span:hover {
-	color: #2874f0;
-}
-
-.men:hover {
-	color: #2874f0;
-}
-
-.men span:hover {
-	color: #2874f0;
-}
-
-.women:hover {
-	color: #2874f0;
-}
-
-.women span:hover {
-	color: #2874f0;
-}
-
-.baby:hover {
-	color: #2874f0;
-}
-
-.baby span:hover {
-	color: #2874f0;
-}
-
-.home:hover {
-	color: #2874f0;
-}
-
-.home span:hover {
-	color: #2874f0;
-}
-
-.sports:hover {
-	color: #2874f0;
-}
-
-.sports span:hover {
-	color: #2874f0;
-}
-
-.flights:hover {
-	color: #2874f0;
-}
-
-.flights span:hover {
-	color: #2874f0;
-}
-
-.offer:hover {
-	color: #2874f0;
-}
-
+.electronics:hover,
+.tv:hover,
+.electronics span:hover,
+.tv span:hover,
+.men:hover,
+.men span:hover,
+.women:hover,
+.women span:hover,
+.baby:hover,
+.baby span:hover,
+.home:hover,
+.home span:hover,
+.sports:hover,
+.sports span:hover,
+.flights:hover,
+.flights span:hover,
+.offer:hover,
 .offer span:hover {
 	color: #2874f0;
 }
@@ -251,7 +213,6 @@
 	background-color: #2874f0;
 	color: #fff;
 	padding: 40px 33px;
-	/*height: 350px;*/
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -260,7 +221,6 @@
 .logoPart {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between; */
 	gap: 213px;
 }
 
@@ -281,7 +241,6 @@
 }
 
 .enter {
-	/*padding: 40px 33px;*/
 	display: flex;
 	flex-direction: column;
 	gap: 17px;
@@ -323,13 +282,20 @@
 
 .createAccount {
 	text-align: center;
+    	width: 100%;
+    	height: 48px;
+    	font-size: 15px;
+    	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    	margin-top: 16px;
+
 }
 
 .createAccount a {
-	text-decoration: none;
-	color: #2874f0;
-	font-size: 15px;
-	font-weight: 500;
+	border: none;
+    	text-decoration:none;
+   	color: #2874f0;
+    	background-color: #fff;
+    	line-height: 2.5;
 }
 
 .footer {
@@ -345,18 +311,21 @@
 	gap: 38px;
 }
 
-.about {
+.about,
+.groupCompany,
+.consumer,
+.registeredOffice,
+.mailUs {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
 }
 
-.aboutSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
 
-.aboutBelow {
+.aboutBelow,
+.groupBelow,
+.helpBelow,
+.consumerBelow {
 	color: #ffffff;
 	font-size: 12px;
 	display: flex;
@@ -368,38 +337,14 @@
 	cursor: pointer;
 }
 
-.aboutBelow p:hover {
+.aboutBelow p:hover,
+.groupBelow p:hover,
+.helpBelow p:hover,
+.consumerBelow p:hover {
 	color: white;
 	text-decoration: underline;
 }
 
-.groupCompany {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-}
-
-.groupSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.groupBelow {
-	color: #ffffff;
-	font-size: 12px;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-
-.groupBelow p {
-	cursor: pointer;
-}
-
-.groupBelow p:hover {
-	color: white;
-	text-decoration: underline;
-}
 
 .help {
 	display: flex;
@@ -407,84 +352,38 @@
 	gap: 10px;
 }
 
-.helpSecTxt {
+.aboutSecTxt,
+.groupCompany,
+.helpSecTxt,
+.consumerSecTxt,
+.mailSecTxt,
+.social p,
+.registeredOfficeSecTxt {
 	color: #878787;
 	font-size: 12px;
 }
 
-.helpBelow {
-	color: #ffffff;
-	font-size: 12px;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
 
-.helpBelow p {
+.helpBelow p,
+.consumerBelow p,
+.groupBelow p {
 	cursor: pointer;
 }
 
-.helpBelow p:hover {
-	color: white;
-	text-decoration: underline;
-}
-
-.consumer {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-
-}
-
-.consumerSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.consumerBelow {
-	color: #ffffff;
-	font-size: 12px;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-
-.consumerBelow p {
-	cursor: pointer;
-}
-
-.consumerBelow p:hover {
-	color: white;
-	text-decoration: underline;
-}
 
 .line {
 	border: 1px solid #454d5e;
-	margin-left: 13px;
+	margin-left: 10px;
 }
 
-.mailUs {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
 
-}
-
-.mailSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.mailBelow {
+.mailBelow,
+.registeredOfficeBelow {
 	color: #ffffff;
 	font-size: 12px;
 	line-height: 1.5;
 }
 
-.social p {
-	color: #878787;
-	font-size: 12px;
-}
 
 .socialIcons {
 	display: flex;
@@ -496,23 +395,6 @@
 	cursor: pointer;
 }
 
-.registeredOffice {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-
-}
-
-.registeredOfficeSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.registeredOfficeBelow {
-	color: #ffffff;
-	font-size: 12px;
-	line-height: 1.5;
-}
 
 .registeredOfficeBelow a {
 	text-decoration: none;
@@ -525,6 +407,7 @@
 	margin-top: 40px;
 	width: 100%;
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -536,7 +419,7 @@
 .footerBelowSet {
 	display: flex;
 	font-size: 14px;
-	gap: 40px;
+	gap: 50px;
 }
 
 .corporate {
@@ -553,18 +436,26 @@
 	cursor: default;
 }
 
+.line {
+	margin-left: 13px;
+}
+
 .aSeller {
 	padding-left: 55px;
+	display: flex;
+	align-items: center;
 }
 
-.loginBox {
-	margin-left: 10px;
+.advertise,
+.giftCard,
+.helpCenter,
+.cards,
+.corporate {
+	display: flex;
+	align-items: center;
 }
 
-.createAccount {
-	border: 1px solid black;
-	margin-top: 10px;
-	padding: 15px 20px;
-	border-style: none;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.footerBelowSet a,
+.corporateTxt {
+	font-size: 12px;
 }

@@ -22,7 +22,9 @@ body {
 
 }
 
-.flipkartlogo {
+.flipkartlogo,
+.searchIcon span,
+.threeIcons {
 	cursor: pointer;
 }
 
@@ -53,9 +55,6 @@ body {
 	background-color: #F2F6FC;
 }
 
-.searchIcon span {
-	cursor: pointer;
-}
 
 .searchCont {
 	display: flex;
@@ -89,25 +88,7 @@ body {
 
 }
 
-.cart {
-	display: flex;
-	align-items: center;
-	gap: 5px;
-	cursor: pointer;
-}
-
-.cartSet {
-	text-decoration: none;
-	outline: none;
-	color: #000000;
-}
-
-.homeSet {
-	text-decoration: none;
-	outline: none;
-	color: #000000;
-}
-
+.cart,
 .seller {
 	display: flex;
 	align-items: center;
@@ -115,16 +96,33 @@ body {
 	cursor: pointer;
 }
 
-.threeIcons {
-	cursor: pointer;
+.cartSet,
+.homeSet {
+	text-decoration: none;
+	outline: none;
+	color: #000000;
 }
+
+
+.sellerIcon {
+	margin-top: 6px;
+}
+
 
 .threeIcons:hover {
 	border: 1px solid #ddd;
 	border-radius: 4px;
 }
 
-.grocery {
+.grocery,
+.mobiles,
+.fashion,
+.electronics,
+.furniture,
+.appliances,
+.travel,
+.toys,
+.twoWheeler {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -132,103 +130,47 @@ body {
 	padding: 16px;
 	cursor: pointer;
 	box-sizing: content-box;
+	text-decoration: none;
 }
 
-.groceryTxt p {
+.groceryTxt p,
+.mobileTxt p,
+.travelTxt p,
+.appliancesTxt p {
 	font-size: 14px;
 	color: #333333;
-}
-
-.mobiles {
-	min-width: 90px;
-	padding: 16px;
-	cursor: pointer;
 	text-decoration: none;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	box-sizing: content-box;
-
 }
 
-.mobileTxt p {
-	font-size: 14px;
-	color: #333333;
-}
-
-.fashion {
-	min-width: 90px;
-	padding: 16px;
-	cursor: pointer;
-	text-decoration: none;
-	box-sizing: content-box;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-
-.fashions {
+.fashions,
+.electronic,
+.smartPhones,
+.nxt {
 	display: flex;
 
 }
 
-.fashionTxt p {
+.fashionTxt p,
+.electronicTxt p,
+.homeFurnTxt p,
+.beautyToysTxt p,
+.twoWheelersTxt p {
+
 	font-size: 14px;
 	color: #111112;
-}
-
-.electronics {
-	min-width: 90px;
-	padding: 16px;
-	cursor: pointer;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	box-sizing: content-box;
-}
-
-.electronic {
-	display: flex;
-
-}
-
-.electronicTxt p {
-	font-size: 14px;
-	color: #111112;
-}
-
-.furniture {
-	min-width: 90px;
-	padding: 16px;
-	cursor: pointer;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	box-sizing: content-box;
+	text-decoration: none;
 }
 
 .furnitureSet img {
 	padding-left: 50px;
 }
 
-.homeFurn {
+.homeFurn,
+.beautyToys,
+.twoWheelers,
+.seconddd {
 	display: flex;
 
-}
-
-.homeFurnTxt p {
-	font-size: 14px;
-	color: #111112;
-}
-
-.appliances {
-	min-width: 90px;
-	padding: 16px;
-	cursor: pointer;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	box-sizing: content-box;
 }
 
 .appliancesSet {
@@ -236,75 +178,15 @@ body {
 	outline: none;
 }
 
-.appliancesTxt p {
-	font-size: 14px;
-	color: #333333;
-	text-decoration: none;
-}
-
-.travel {
-	min-width: 90px;
-	padding: 16px;
-	cursor: pointer;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	box-sizing: content-box;
-}
-
-.travelTxt p {
-	font-size: 14px;
-	color: #333333;
-}
-
-.toys {
-	min-width: 90px;
-	padding: 16px;
-	cursor: pointer;
-
-	box-sizing: content-box;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-
 .toysSet img {
 	padding-left: 50px;
 }
 
-.beautyToys {
-	display: flex;
-
-}
-
-.beautyToysTxt p {
-	font-size: 14px;
-	color: #111112;
-}
-
-.twoWheeler {
-	min-width: 90px;
-	padding: 16px;
-	cursor: pointer;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	box-sizing: content-box;
-}
-
-.twoWheelers {
-	display: flex;
-
-}
 
 .twoWheelerSet img {
 	padding-left: 30px;
 }
 
-.twoWheelersTxt p {
-	font-size: 14px;
-	color: #111112;
-}
 
 .headerSecond {
 	display: flex;
@@ -328,19 +210,6 @@ body {
 	margin-top: 10px;
 	cursor: pointer;
 }
-
-/*.leftButton {
-	display: flex;
-
-	width: 40px;
-	background-color: #fff;
-	height: 88px;
-	top: 0;
-	bottom: 0;
-	margin: auto 0;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
-
-}*/
 
 .mainSection {
 	display: flex;
@@ -368,7 +237,8 @@ body {
 
 }
 
-.leftButton span {
+.leftButton span,
+.rightButton span {
 	color: #A9A9A9;
 }
 
@@ -388,9 +258,6 @@ body {
 	justify-content: center;
 }
 
-.rightButton span {
-	color: #A9A9A9;
-}
 
 .secondMain {
 	display: flex;
@@ -403,16 +270,11 @@ body {
 
 .secondMainSection {
 	display: flex;
-	/*align-items: center;
-	gap: 775px;*/
 	flex-direction: column;
 	padding-left: 7px;
 	margin-top: 20px;
 }
 
-.seconddd {
-	display: flex;
-}
 
 .smartPhoneImagez {
 	margin-top: 16px;
@@ -425,7 +287,7 @@ body {
 	background-color: white;
 }
 
-.bestdeals {
+.bestDeals {
 	display: flex;
 	gap: 800px;
 	cursor: pointer;
@@ -447,9 +309,6 @@ body {
 	color: white;
 }
 
-.smartPhones {
-	display: flex;
-}
 
 .smartPhoneImages {
 	display: flex;
@@ -527,7 +386,7 @@ body {
 
 .suggestions {
 	display: flex;
-	/* align-items: center; */
+
 	align-items: center;
 	gap: 220px;
 	margin-top: 10px;
@@ -609,10 +468,6 @@ body {
 	margin-left: 16px;
 }
 
-.nxt {
-	display: flex;
-
-}
 
 .offerImages {
 	display: flex;
@@ -620,15 +475,12 @@ body {
 	cursor: pointer;
 }
 
-.offerImagesNxt {
-	display: flex;
-	align-items: flex-start;
-}
-
+.offerImagesNxt,
 .offerImagesSnd {
 	display: flex;
 	align-items: flex-start;
 }
+
 
 .footerFirst {
 
@@ -687,7 +539,6 @@ body {
 
 .mobTxtLast {
 	color: #565656;
-
 	font-size: 12px;
 }
 
@@ -721,30 +572,35 @@ body {
 	gap: 38px;
 }
 
-.about {
+.about,
+.groupCompany,
+.consumer,
+.mailUs,
+.socialIcons {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
 }
 
-.aboutSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
 
-.aboutSec p {
+.aboutSec p,
+.groupSec p,
+.helpSec p,
+.consumerSec p,
+.mailUs p,
+.flipkartContents,
+.corporate p,
+.footerBelowSet img,
+.mobilesTxt,
+.mostsearchTxt {
 	cursor: default;
-}
+} 
 
-.aboutBelow {
-	color: #ffffff;
-	font-size: 12px;
-	display: flex;
-	flex-direction: column;
-	gap: 6px;
-}
-
-.aboutBelow p {
+.aboutBelow p,
+.groupBelow p,
+.helpBelow p,
+.consumerBelow p,
+.socialIcons img {
 	cursor: pointer;
 }
 
@@ -753,32 +609,16 @@ body {
 	text-decoration: underline;
 }
 
-.groupCompany {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-}
 
-.groupSec p {
-	cursor: default;
-}
-
-.groupSecTxt {
+.groupSecTxt,
+.helpSecTxt,
+.consumerSecTxt,
+.mailSecTxt,
+.aboutSecTxt {
 	color: #878787;
 	font-size: 12px;
 }
 
-.groupBelow {
-	color: #ffffff;
-	font-size: 12px;
-	display: flex;
-	flex-direction: column;
-	gap: 6px;
-}
-
-.groupBelow p {
-	cursor: pointer;
-}
 
 .groupBelow p:hover {
 	color: white;
@@ -791,16 +631,10 @@ body {
 	gap: 10px;
 }
 
-.helpSec p {
-	cursor: default;
-}
-
-.helpSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.helpBelow {
+.helpBelow,
+.consumerBelow,
+.groupBelow,
+.aboutBelow {
 	color: #ffffff;
 	font-size: 12px;
 	display: flex;
@@ -808,43 +642,7 @@ body {
 	gap: 6px;
 }
 
-.helpBelow p {
-	cursor: pointer;
-}
-
-.helpBelow p:hover {
-	color: white;
-	text-decoration: underline;
-}
-
-.consumer {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-
-}
-
-.consumerSec p {
-	cursor: default;
-}
-
-.consumerSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.consumerBelow {
-	color: #ffffff;
-	font-size: 12px;
-	display: flex;
-	flex-direction: column;
-	gap: 6px;
-}
-
-.consumerBelow p {
-	cursor: pointer;
-}
-
+.helpBelow p:hover,
 .consumerBelow p:hover {
 	color: white;
 	text-decoration: underline;
@@ -855,44 +653,19 @@ body {
 	margin-left: 10px;
 }
 
-.mailUs {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-
-}
-
-.mailUs p {
-	cursor: default;
-
-}
-
-.mailSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.mailBelow {
+.mailBelow,
+.registeredOfficeBelow {
 	color: #ffffff;
 	font-size: 12px;
 	line-height: 1.5;
 	cursor: default;
 }
 
-.social p {
+.social p,
+.registeredOfficeSecTxt {
 	color: #878787;
 	font-size: 12px;
 	cursor: default;
-}
-
-.socialIcons {
-	display: flex;
-	align-items: center;
-	gap: 15px;
-}
-
-.socialIcons img {
-	cursor: pointer;
 }
 
 .registeredOffice {
@@ -901,23 +674,6 @@ body {
 	gap: 15px;
 
 }
-
-.registeredOfficeSec p {
-	cursor: default;
-}
-
-.registeredOfficeSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.registeredOfficeBelow {
-	color: #ffffff;
-	font-size: 12px;
-	line-height: 1.5;
-	cursor: default;
-}
-
 
 .registeredOfficeBelow a {
 	text-decoration: none;
@@ -930,7 +686,6 @@ body {
 	margin-top: 40px;
 	width: 100%;
 	display: flex;
-
 	align-items: center;
 }
 
@@ -940,7 +695,11 @@ body {
 	padding-left: 55px;
 }
 
-.advertise {
+.advertise,
+.giftCard,
+.helpCenter,
+.cards,
+.corporate {
 	display: flex;
 	align-items: center;
 }
@@ -949,25 +708,6 @@ body {
 	padding-top: 6px;
 }
 
-.giftCard {
-	display: flex;
-	align-items: center;
-}
-
-.helpCenter {
-	display: flex;
-	align-items: center;
-}
-
-.corporate {
-	display: flex;
-	align-items: center;
-}
-
-.cards {
-	display: flex;
-	align-items: center;
-}
 
 .footerBelow a {
 	text-decoration: none;
@@ -977,16 +717,13 @@ body {
 .footerBelowSet {
 	display: flex;
 	font-size: 14px;
-	gap: 30px;
+	gap: 50px;
 }
 
 .corporate {
 	color: white;
 }
 
-.corporate p {
-	cursor: default;
-}
 
 .dropdown span {
 	font-size: 15px;
@@ -994,16 +731,27 @@ body {
 
 }
 
-.flipkartContents {
-	cursor: default;
-}
-
-.footerBelowSet img {
-	cursor: default;
-}
-
 .paras a {
 	text-decoration: none;
 	outline: none;
 	color: #2874f0;
+}
+
+.pcImageSecondSet {
+	border-top: 1px solid #ddd;
+}
+
+.bestDealsTxt h3,
+.featuredBrands,
+.smartGadgetsTxt,
+.suggestionsTxt,
+.cricketTxt {
+	font-weight: 500;
+}
+
+
+
+.pcImagesConts {
+	display: flex;
+	height: 516px;
 }

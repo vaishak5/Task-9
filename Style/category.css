@@ -140,114 +140,36 @@
 	padding-left: 20px;
 }
 
-.electronics:hover {
-	color: #2874f0;
-}
 
-.electronics span:hover {
-	color: #2874f0;
-}
-
-.tv {
-	display: flex;
-	align-items: center;
-}
-
-.tv:hover {
-	color: #2874f0;
-}
-
-.tv span:hover {
-	color: #2874f0;
-}
-
-.men {
-	display: flex;
-	align-items: center;
-}
-
-.men:hover {
-	color: #2874f0;
-}
-
-.men span:hover {
-	color: #2874f0;
-}
-
-.women {
-	display: flex;
-	align-items: center;
-}
-
-.baby {
-	display: flex;
-	align-items: center;
-}
-
-.women:hover {
-	color: #2874f0;
-}
-
-.women span:hover {
-	color: #2874f0;
-}
-
-.baby:hover {
-	color: #2874f0;
-}
-
-.baby span:hover {
-	color: #2874f0;
-}
-
-.home {
-	display: flex;
-	align-items: center;
-}
-
-.home:hover {
-	color: #2874f0;
-}
-
-.home span:hover {
-	color: #2874f0;
-}
-
-.sports {
-	display: flex;
-	align-items: center;
-}
-
-.sports:hover {
-	color: #2874f0;
-}
-
-.sports span:hover {
-	color: #2874f0;
-}
-
-.flights {
-	display: flex;
-	align-items: center;
-}
-
-.flights:hover {
-	color: #2874f0;
-}
-
-.flights span:hover {
-	color: #2874f0;
-}
-
+.tv,
+.men,
+.women,
+.baby,
+.home,
+.sports,
+.flights,
 .offer {
 	display: flex;
 	align-items: center;
 }
 
-.offer:hover {
-	color: #2874f0;
-}
-
+.electronics:hover,
+.tv:hover,
+.electronics span:hover,
+.tv span:hover,
+.men:hover,
+.men span:hover,
+.women:hover,
+.women span:hover,
+.baby:hover,
+.baby span:hover,
+.home:hover,
+.home span:hover,
+.sports:hover,
+.sports span:hover,
+.flights:hover,
+.flights span:hover,
+.offer:hover,
 .offer span:hover {
 	color: #2874f0;
 }
@@ -401,61 +323,40 @@
 	gap: 38px;
 }
 
-.about {
+.about,
+.groupCompany,
+.consumer,
+.registeredOffice,
+.mailUs {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
 }
 
-.aboutSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
 
-.aboutBelow {
+.aboutBelow,
+.groupBelow,
+.helpBelow,
+.consumerBelow {
 	color: #ffffff;
 	font-size: 12px;
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 10px;
 }
 
 .aboutBelow p {
 	cursor: pointer;
 }
 
-.aboutBelow p:hover {
+.aboutBelow p:hover,
+.groupBelow p:hover,
+.helpBelow p:hover,
+.consumerBelow p:hover {
 	color: white;
 	text-decoration: underline;
 }
 
-.groupCompany {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-}
-
-.groupSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.groupBelow {
-	color: #ffffff;
-	font-size: 12px;
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-}
-
-.groupBelow p {
-	cursor: pointer;
-}
-
-.groupBelow p:hover {
-	color: white;
-	text-decoration: underline;
-}
 
 .help {
 	display: flex;
@@ -463,47 +364,114 @@
 	gap: 10px;
 }
 
-.helpSecTxt {
+.helpSecTxt,
+.consumerSecTxt,
+.mailSecTxt,
+.social p,
+.registeredOfficeSecTxt {
 	color: #878787;
 	font-size: 12px;
 }
 
-.helpBelow {
-	color: #ffffff;
-	font-size: 12px;
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-}
 
-.helpBelow p {
+.helpBelow p,
+.consumerBelow p,
+.groupBelow p {
 	cursor: pointer;
 }
 
-.helpBelow p:hover {
-	color: white;
-	text-decoration: underline;
+
+.line {
+	border: 1px solid #454d5e;
+	margin-left: 10px;
 }
 
-.consumer {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
 
-}
-
-.consumerSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.consumerBelow {
+.mailBelow,
+.registeredOfficeBelow {
 	color: #ffffff;
 	font-size: 12px;
+	line-height: 1.5;
+}
+
+
+.socialIcons {
 	display: flex;
-	flex-direction: column;
+	align-items: center;
 	gap: 15px;
 }
+
+.socialIcons img {
+	cursor: pointer;
+}
+
+
+.registeredOfficeBelow a {
+	text-decoration: none;
+	color: #2874F0;
+}
+
+.footerBelow {
+	border-top: 1px solid #454d5e;
+	padding: 25px 0;
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footerBelow a {
+	text-decoration: none;
+	color: white;
+}
+
+.footerBelowSet {
+	display: flex;
+	font-size: 14px;
+	gap: 50px;
+}
+
+.corporate {
+	color: white;
+}
+
+.dropdown span {
+	font-size: 15px;
+	margin-top: 2px;
+
+}
+
+.footerBelowSet img {
+	cursor: default;
+}
+
+.line {
+	margin-left: 13px;
+}
+
+.aSeller {
+	padding-left: 55px;
+	display: flex;
+	align-items: center;
+}
+
+.advertise,
+.giftCard,
+.helpCenter,
+.cards,
+.corporate {
+	display: flex;
+	align-items: center;
+}
+
+.footerBelowSet a,
+.corporateTxt {
+	font-size: 12px;
+}
+
+
+
 
 .consumerBelow p {
 	cursor: pointer;
@@ -526,21 +494,21 @@
 
 }
 
-.mailSecTxt {
+.mailSecTxt, .registeredOfficeSecTxt,.consumerSecTxt,.helpSecTxt,
+.groupSecTxt,.aboutSecTxt,.social p 
+{
+ 
 	color: #878787;
 	font-size: 12px;
-}
+}   
 
-.mailBelow {
+.mailBelow,.registeredOfficeBelow {
 	color: #ffffff;
 	font-size: 12px;
-	line-height: 1.5
+	line-height: 1.5;
 }
 
-.social p {
-	color: #878787;
-	font-size: 12px;
-}
+
 
 .socialIcons {
 	display: flex;
@@ -558,18 +526,6 @@
 	gap: 15px;
 
 }
-
-.registeredOfficeSecTxt {
-	color: #878787;
-	font-size: 12px;
-}
-
-.registeredOfficeBelow {
-	color: #ffffff;
-	font-size: 12px;
-	line-height: 1.5
-}
-
 .registeredOfficeBelow a {
 	text-decoration: none;
 	color: #2874F0;
@@ -581,7 +537,6 @@
 	margin-top: 40px;
 	width: 100%;
 	display: flex;
-
 	align-items: center;
 }
 
@@ -594,10 +549,20 @@
 	display: flex;
 	font-size: 14px;
 	gap: 40px;
+	align-items: center;
 }
 
-.corporate {
+.giftCard,
+.helpCenter,
+.corporate,
+.advertise,
+.cards,
+.aseller
+{
 	color: white;
+	display: flex;
+	align-items: center;
+	gap:5px;
 }
 
 .dropdown span {
@@ -610,10 +575,7 @@
 	cursor: default;
 }
 
-.addImg img {
-	cursor: pointer;
-}
-
+.addImg img,
 .view {
 	cursor: pointer;
 }
@@ -635,4 +597,16 @@
 
 .aSeller {
 	padding-left: 55px;
+}
+
+.dropdown {
+	color: #D3D3D3;
+}
+
+.imageFt {
+	padding-top: 5px;
+}
+
+.imageSd {
+	padding-top: 11px;
 }

@@ -4,17 +4,8 @@
 	font-family: Roboto, Arial, sans-serif;
 }
 
-.headerNav {
-	display: flex;
-}
-
 .flipkartlogo {
 	cursor: pointer;
-}
-
-.explore {
-	display: flex;
-	align-items: center;
 }
 
 .explore a {
@@ -35,11 +26,37 @@
 .plus {
 	color: yellow;
 }
-
-.search {
+.aSeller {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+}
+
+.advertise {
+	display: flex;
+	align-items: center;
+}
+
+.giftCard {
+	display: flex;
+	align-items: center;
+}
+
+.helpCenter {
+	display: flex;
+	align-items: center;
+}
+
+.corporate {
+	display: flex;
+	align-items: center;
+}
+
+.cards {
+	display: flex;
+	align-items: center;
+}
+
+.search {
 	width: 383px;
 }
 
@@ -97,9 +114,7 @@
 }
 
 .account {
-	display: flex;
 	color: white;
-	align-items: center;
 	font-weight: 600;
 }
 
@@ -112,8 +127,6 @@
 }
 
 .more {
-	display: flex;
-	align-items: center;
 	color: white;
 	font-family: Roboto, Arial, sans-serif;
 	font-weight: 600;
@@ -121,8 +134,6 @@
 }
 
 .cart {
-	display: flex;
-	align-items: center;
 	color: white;
 	font-family: Roboto, Arial, sans-serif;
 	gap: 10px;
@@ -133,14 +144,10 @@
 .headerNavSd {
 	background-color: #2874f0;
 	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	padding: 10px;
 }
 
 .headerSecond {
-	display: flex;
 	padding: 15px;
 	border-bottom: 1px solid #ddd;
 	font-size: 12px;
@@ -150,21 +157,11 @@
 }
 
 .headerSecondNav {
-	display: flex;
-	/*gap: 45px;*/
-
 	cursor: pointer;
-
 }
 
 .dropdown span {
 	font-size: 13px;
-}
-
-.electronics {
-	display: flex;
-	align-items: center;
-
 }
 
 .electronics:hover {
@@ -175,22 +172,12 @@
 	color: #2874f0;
 }
 
-.tv {
-	display: flex;
-	align-items: center;
-}
-
 .tv:hover {
 	color: #2874f0;
 }
 
 .tv span:hover {
 	color: #2874f0;
-}
-
-.men {
-	display: flex;
-	align-items: center;
 }
 
 .men:hover {
@@ -200,17 +187,6 @@
 .men span:hover {
 	color: #2874f0;
 }
-
-.women {
-	display: flex;
-	align-items: center;
-}
-
-.baby {
-	display: flex;
-	align-items: center;
-}
-
 .women:hover {
 	color: #2874f0;
 }
@@ -227,11 +203,6 @@
 	color: #2874f0;
 }
 
-.home {
-	display: flex;
-	align-items: center;
-}
-
 .home:hover {
 	color: #2874f0;
 }
@@ -239,12 +210,6 @@
 .home span:hover {
 	color: #2874f0;
 }
-
-.sports {
-	display: flex;
-	align-items: center;
-}
-
 .sports:hover {
 	color: #2874f0;
 }
@@ -252,12 +217,6 @@
 .sports span:hover {
 	color: #2874f0;
 }
-
-.flights {
-	display: flex;
-	align-items: center;
-}
-
 .flights:hover {
 	color: #2874f0;
 }
@@ -265,12 +224,6 @@
 .flights span:hover {
 	color: #2874f0;
 }
-
-.offer {
-	display: flex;
-	align-items: center;
-}
-
 .offer:hover {
 	color: #2874f0;
 }
@@ -282,27 +235,18 @@
 .mainSectionSet {
 	background-color: rgb(255, 255, 255);
 	padding: 16px;
-	display: flex;
+	
 }
-
-.mainSectionFt {
-	display: flex;
-}
-
 .rightImagesSet {
 	display: flex;
 	flex-direction: column;
 }
 
 .buttonSet {
-	display: flex;
+	
 	gap: 14px;
 	cursor: pointer;
 
-}
-
-.cartBtn {
-	display: flex;
 }
 
 .cartt {
@@ -310,19 +254,26 @@
 	background-color: #ff9f00;
 	border-style: none;
 	outline: none;
-	/* float: left; */
 	padding-left: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 30px;
 }
+.cartttt{
+	color: white;
+	background-color: #ff9f00;
+	border-style: none;
+	outline: none;
+	padding-left: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 11px;
+}
 
 .buy {
 	color: white;
-	/* background-color: #ff9f00; */
 	border-style: none;
 	outline: none;
-	/* float: left; */
 	padding-left: 40px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -331,7 +282,6 @@
 }
 
 .ftSectionLeft {
-	display: flex;
 	cursor: pointer;
 }
 
@@ -342,20 +292,9 @@
 .mainSectionSd {
 	/*padding: 0px 0px 0px 24px;*/
 }
-
-.prodSet {
-	display: flex;
-	align-items: center;
-}
-
 .prodSet span {
 	font-size: 12px;
 	color: #878787;
-}
-
-.ftSectionRight {
-	display: flex;
-	align-items: center;
 }
 
 .ftSectionRight span {
@@ -365,14 +304,6 @@
 
 .ftSectionRight span:hover {
 	color: #0d6efd;
-}
-
-.mainSectionSdSet {
-	display: flex;
-}
-
-.ftSection {
-	display: flex;
 }
 
 .prodName {
@@ -431,11 +362,6 @@
 	cursor: pointer;
 }
 
-.splPcSd {
-	display: flex;
-	align-items: center;
-}
-
 .splPcSd img {
 	cursor: pointer;
 }
@@ -460,8 +386,6 @@
 }
 
 .deliveryCont {
-	display: flex;
-	align-items: center;
 	gap: 20px;
 }
 
@@ -470,8 +394,6 @@
 }
 
 .loc {
-	display: flex;
-	align-items: center;
 	padding: 0 0 4px;
 	gap: 10px;
 	border-bottom: 2px solid #2874f0;
@@ -489,12 +411,7 @@
 .ship {
 	margin: 8px 0 0 105px;
 	font-size: 14px;
-	display: flex;
-}
-
-.freeDee {
-	display: flex;
-	align-items: center;
+	
 }
 
 .freeDee span {
@@ -522,14 +439,12 @@
 }
 
 .services {
-	display: flex;
+	
 	margin-top: 5px;
 }
 
 .rsSet {
-	display: flex;
-	/* align-items: baseline; */
-	align-items: flex-start;
+	
 	margin-top: 5px;
 }
 
@@ -539,14 +454,11 @@
 }
 
 .highSer {
-	display: flex;
 	gap: 25px;
 }
 
 .imp {
 	gap: 18px;
-	display: flex;
-	align-items: center;
 	font-size: 14px;
 }
 
@@ -555,7 +467,6 @@
 }
 
 .sell {
-	display: flex;
 	font-size: 14px;
 }
 
@@ -575,9 +486,8 @@
 }
 
 .days {
-	display: flex;
 	padding-left: 1rem;
-	align-items: center;
+	
 }
 
 .see {
@@ -591,7 +501,6 @@
 }
 
 .bajaj {
-	display: flex;
 	gap: 10px;
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 5px;
@@ -643,8 +552,6 @@
 }
 
 .rep {
-	display: flex;
-	flex-direction: column;
 	font-size: 12px;
 }
 
@@ -666,7 +573,6 @@
 }
 
 .ftItem {
-	display: flex;
 	font-size: 14px;
 }
 
@@ -710,13 +616,11 @@
 }
 
 .generalMainSet {
-	display: flex;
 	font-size: 14px;
 	gap: 125px;
 }
 
 .reviews {
-	display: flex;
 	justify-content: space-between;
 }
 
@@ -739,8 +643,6 @@
 }
 
 .generalMain {
-	display: flex;
-	flex-direction: column;
 	gap: 10px;
 }
 
@@ -783,11 +685,11 @@
 	padding: 16px;
 }
 
-.dollSet {
+/*.dollSet {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
+}*/
 
 .dollSetTxt p {
 	font-size: 14px;
@@ -804,17 +706,9 @@
 	padding-left: 20px;
 }
 
-.dollAd {
-	display: flex;
-}
-
-.dollImagesSd {
-	display: flex;
-}
-
 .dollSett {
-	display: flex;
-	align-items: center;
+	/*display: flex;
+	align-items: center;*/
 }
 
 .icon {
@@ -830,10 +724,6 @@
 	padding: 24px;
 }
 
-.numRate {
-	display: flex;
-}
-
 .rateImg {
 	padding: 24px;
 }
@@ -843,8 +733,8 @@
 }
 
 .revCmt {
-	display: flex;
-	justify-content: space-between;
+	/*display: flex;
+	justify-content: space-between;*/
 }
 
 .lord {
@@ -995,7 +885,6 @@
 .imgg {
 	display: flex;
 	border-bottom: 1px solid #ddd;
-
 	padding: 5px;
 
 }
@@ -1028,7 +917,6 @@
 .simiProd {
 	display: flex;
 	border-bottom: 1px solid #ddd;
-
 	padding: 5px;
 }
 
@@ -1091,7 +979,7 @@
 }
 
 .likeBo {
-	display: flex;
+	/*display: flex;*/
 	border: 1px solid #ddd;
 	padding-left: 2px;
 	padding-right: 4px;
@@ -1175,15 +1063,14 @@
 
 .byNo {
 	border: 1px solid #ddd;
-
 	background-color: #ff9f00;
 	font-size: 14px;
 	padding: 5px 40px 5px 40px;
 }
 
 .simProdHeadings {
-	display: flex;
-	justify-content: space-between;
+	/*display: flex;
+	justify-content: space-between;*/
 	padding: 16px;
 	font-size: 14px;
 	border-bottom: 1px solid #ddd;
@@ -1216,8 +1103,8 @@
 }
 
 .about {
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 15px;
 }
 
@@ -1229,8 +1116,8 @@
 .aboutBelow {
 	color: #ffffff;
 	font-size: 12px;
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 15px;
 }
 
@@ -1244,8 +1131,8 @@
 }
 
 .groupCompany {
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 15px;
 }
 
@@ -1257,8 +1144,8 @@
 .groupBelow {
 	color: #ffffff;
 	font-size: 12px;
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 15px;
 }
 
@@ -1272,8 +1159,8 @@
 }
 
 .help {
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 10px;
 }
 
@@ -1285,8 +1172,8 @@
 .helpBelow {
 	color: #ffffff;
 	font-size: 12px;
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 15px;
 }
 
@@ -1300,8 +1187,8 @@
 }
 
 .consumer {
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 15px;
 
 }
@@ -1314,8 +1201,8 @@
 .consumerBelow {
 	color: #ffffff;
 	font-size: 12px;
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 15px;
 }
 
@@ -1334,8 +1221,8 @@
 }
 
 .mailUs {
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 15px;
 
 }
@@ -1348,7 +1235,7 @@
 .mailBelow {
 	color: #ffffff;
 	font-size: 12px;
-	line-height: 1.5
+	line-height: 1.5;
 }
 
 .social p {
@@ -1357,8 +1244,8 @@
 }
 
 .socialIcons {
-	display: flex;
-	align-items: center;
+	/*display: flex;
+	align-items: center;*/
 	gap: 15px;
 }
 
@@ -1367,8 +1254,8 @@
 }
 
 .registeredOffice {
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 	gap: 15px;
 
 }
@@ -1405,7 +1292,6 @@
 }
 
 .footerBelowSet {
-	display: flex;
 	font-size: 14px;
 	gap: 30px;
 }
@@ -1551,4 +1437,8 @@
 
 .highRatingss {
 	font-size: 27px;
+}
+
+.dropdown{
+	color:#D3D3D3;
 }

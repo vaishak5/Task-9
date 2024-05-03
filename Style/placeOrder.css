@@ -59,6 +59,7 @@
 .mainSection {
 	padding: 8px;
 	width: 70%;
+	margin-top:14px;
 
 }
 
@@ -90,7 +91,7 @@
 .logTxt {
 	display: flex;
 	flex-direction: column;
-	cursor:default;
+	cursor: default;
 }
 
 .log {
@@ -120,7 +121,7 @@
 
 .mainSectionSecond {
 	margin-top: 20px;
-	cursor:default;
+	cursor: default;
 }
 
 .mainSectionSecondContents {
@@ -152,12 +153,12 @@
 	display: flex;
 	border-bottom: 1px solid #ddd;
 	background-color: white;
-	
+
 }
 
 .addressMain {
 	margin-left: 18px;
-	cursor:default;
+	cursor: default;
 
 
 }
@@ -178,15 +179,15 @@
 	border: none;
 	margin-top: 16px;
 	margin-bottom: 16px;
-	cursor:pointer;
-	display:flex;
-	gap:4px;
+	cursor: pointer;
+	display: flex;
+	gap: 4px;
 }
 
 .formSet {
 	display: flex;
 	gap: 55px;
-	
+
 }
 
 .formSetSecond {
@@ -200,7 +201,7 @@
 	border: 1px solid #ddd;
 	color: #878787;
 	width: 100%;
-	outline:none;
+	outline: none;
 }
 
 .digitNo input[type=text] {
@@ -208,7 +209,7 @@
 	border: 1px solid #ddd;
 	color: #878787;
 	width: 100%;
-	outline:none;
+	outline: none;
 }
 
 .pincode input[type=text] {
@@ -216,7 +217,7 @@
 	border: 1px solid #ddd;
 	color: #878787;
 	width: 100%;
-	outline:none;
+	outline: none;
 }
 
 .local input[type=text] {
@@ -224,7 +225,7 @@
 	border: 1px solid #ddd;
 	color: #878787;
 	width: 100%;
-	outline:none;
+	outline: none;
 }
 
 .area {
@@ -235,7 +236,7 @@
 	padding: 20px 30px 60px 13px;
 	border-style: none;
 	color: #878787;
-	outline:none;
+	outline: none;
 }
 
 .state input {
@@ -243,7 +244,7 @@
 	font-size: 12px;
 	padding-left: 13px;
 	color: #878787;
-	outline:none;
+	outline: none;
 }
 
 .detail {
@@ -255,7 +256,7 @@
 	border: 1px solid #ddd;
 	color: #878787;
 	width: 100%;
-	outline:none;
+	outline: none;
 }
 
 .oppmain {
@@ -299,7 +300,7 @@
 	border: 1px solid #ddd;
 	color: #878787;
 	width: 100%;
-	outline:none;
+	outline: none;
 }
 
 .altern input[type=text] {
@@ -307,7 +308,7 @@
 	border: 1px solid #ddd;
 	color: #878787;
 	width: 100%;
-	outline:none;
+	outline: none;
 }
 
 .time {
@@ -342,8 +343,8 @@
 .saveHere {
 	margin-top: 30px;
 	display: flex;
-    	gap: 20px;
-   	 align-items: center;
+	gap: 20px;
+	align-items: center;
 
 }
 
@@ -354,7 +355,7 @@
 	color: #fff;
 	padding: 15px 25px;
 	font-weight: 600;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .order {
@@ -363,7 +364,7 @@
 	align-items: center;
 	border-bottom: 1px solid #ddd;
 	background-color: white;
-	cursor:default;
+	cursor: default;
 }
 
 .ord span {
@@ -377,7 +378,7 @@
 	align-items: center;
 	border-bottom: 1px solid #ddd;
 	background-color: white;
-	cursor:default;
+	cursor: default;
 }
 
 .pay span {
@@ -394,7 +395,7 @@
 .secondSectionFirst {
 	margin-top: 12px;
 	background-color: white;
-	cursor:default;
+	cursor: default;
 }
 
 .price {
@@ -418,7 +419,6 @@
 .amountDetails {
 	display: flex;
 	margin-top: 20px;
-
 	align-items: flex-start;
 	justify-content: space-between;
 }
@@ -549,20 +549,20 @@
 
 .safe {
 	margin-top: 25px;
-	cursor:default;
+	cursor: default;
 
 }
 
 .safeContent {
 	display: flex;
 	gap: 10px;
-	padding-left:10px;
+	padding-left: 10px;
 }
 
 .guardTxt {
 	font-size: 14px;
 	color: #878787;
-	font-weight:550;
+	font-weight: 550;
 }
 
 .footer {
@@ -628,18 +628,20 @@
 	outline: none;
 	color: #2874f0;
 }
-.cancelBtn{
+
+.cancelBtn {
 	padding: 0px 32px;
-    background-color: #ffffff;
-    color: #2874f0;
-    border-style: none;
-    outline: none;
-   
-    border-radius: 5px;
-    cursor: pointer;
-    height: 40px;
-    font-weight: 600;
+	background-color: #ffffff;
+	color: #2874f0;
+	border-style: none;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 40px;
+	font-weight: 600;
 }
-.totalAmt b{
-	color:#11112;
+
+.totalAmt b {
+	color: #11112;
 }
+

@@ -26,6 +26,7 @@
 .plus {
 	color: yellow;
 }
+
 .aSeller {
 	display: flex;
 	align-items: center;
@@ -187,6 +188,7 @@
 .men span:hover {
 	color: #2874f0;
 }
+
 .women:hover {
 	color: #2874f0;
 }
@@ -210,6 +212,7 @@
 .home span:hover {
 	color: #2874f0;
 }
+
 .sports:hover {
 	color: #2874f0;
 }
@@ -217,6 +220,7 @@
 .sports span:hover {
 	color: #2874f0;
 }
+
 .flights:hover {
 	color: #2874f0;
 }
@@ -224,6 +228,7 @@
 .flights span:hover {
 	color: #2874f0;
 }
+
 .offer:hover {
 	color: #2874f0;
 }
@@ -235,15 +240,16 @@
 .mainSectionSet {
 	background-color: rgb(255, 255, 255);
 	padding: 16px;
-	
+
 }
+
 .rightImagesSet {
 	display: flex;
 	flex-direction: column;
 }
 
 .buttonSet {
-	
+
 	gap: 14px;
 	cursor: pointer;
 
@@ -259,7 +265,8 @@
 	padding-bottom: 10px;
 	padding-right: 30px;
 }
-.cartttt{
+
+.cartttt {
 	color: white;
 	background-color: #ff9f00;
 	border-style: none;
@@ -292,6 +299,7 @@
 .mainSectionSd {
 	/*padding: 0px 0px 0px 24px;*/
 }
+
 .prodSet span {
 	font-size: 12px;
 	color: #878787;
@@ -411,7 +419,7 @@
 .ship {
 	margin: 8px 0 0 105px;
 	font-size: 14px;
-	
+
 }
 
 .freeDee span {
@@ -439,12 +447,12 @@
 }
 
 .services {
-	
+
 	margin-top: 5px;
 }
 
 .rsSet {
-	
+
 	margin-top: 5px;
 }
 
@@ -487,7 +495,7 @@
 
 .days {
 	padding-left: 1rem;
-	
+
 }
 
 .see {
@@ -615,9 +623,15 @@
 	border-bottom: 1px solid #ddd;
 }
 
-.generalMainSet {
+.generalMainSetFt,
+.generalMainSetFif {
 	font-size: 14px;
-	gap: 125px;
+	gap: 150px;
+}
+
+.generalMainSetSd {
+	font-size: 14px;
+	gap: 181px;
 }
 
 .reviews {
@@ -628,6 +642,11 @@
 	font-weight: 500;
 	font-size: 24px;
 	padding: 24px 0 0 24px;
+}
+
+.generalMainSetThd {
+	font-size: 14px;
+	gap: 186px;
 }
 
 .rateBtn button {
@@ -644,6 +663,25 @@
 
 .generalMain {
 	gap: 10px;
+}
+
+.generalMainSetFor {
+	font-size: 14px;
+	gap: 155px;
+}
+
+.generalMainSetSix {
+	font-size: 14px;
+	gap: 133px;
+}
+
+.generalMainSetSeven {
+	font-size: 14px;
+	gap: 159px;
+}
+
+.ratingzz {
+	gap: 5px;
 }
 
 .genTxt {
@@ -1439,6 +1477,163 @@
 	font-size: 27px;
 }
 
-.dropdown{
-	color:#D3D3D3;
+.dropdown {
+	color: #D3D3D3;
+}
+
+.cartSet {
+	text-decoration: none;
+}
+
+.headerNavSecond {
+	font-size: 16px;
+}
+
+.frDelivry {
+	font-size: 12px;
+}
+
+.dveryyz {
+	color: #388e3c;
+}
+
+.delInWedn {
+	font-size: 13px;
+	border-right: 1px solid black;
+	padding-right: 4px;
+}
+
+.mayTxt {
+	font-size: 14px;
+	padding-left: 4px;
+}
+
+.strz {
+	padding-left: 6px;
+}
+
+.sponsorTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.errorz,
+.prodShown {
+	font-size: 14px;
+}
+
+.more span {
+	font-size: 15px;
+}
+
+.goodTxt {
+	color: #878787;
+}
+
+.goodConts {
+	display: flex;
+	align-items: baseline;
+	gap: 5px;
+}
+
+.morevert {
+	font-size: 20px;
+	color: #878787;
+}
+
+.commentss {
+	border-bottom: 1px solid #ddd;
+}
+
+.ver {
+	padding-bottom: 10px;
+}
+
+.boughtTog {
+	font-size: 14px;
+}
+
+.estComboo {
+	font-size: 14px;
+}
+
+.oneYr,
+.zuku,
+.rp {
+	font-size: 14px;
+}
+
+.deliveryContFt p {
+	font-size: 14px;
+	color: #878787;
+}
+
+.pinNoo {
+	font-size: 14px;
+}
+
+.ch {
+	padding-left: 50px;
+	cursor: pointer;
+}
+
+.delInWednesday {
+	font-size: 13px;
+	border-right: 1px solid black;
+	padding-left: 7px;
+	padding-right: 5px;
+}
+
+.dveryy {
+	padding-left: 5px;
+	color: #388e3c;
+}
+
+.rssForty {
+	font-size: 13px;
+	padding-left: 4px;
+}
+
+.helpz {
+	font-size: 17px;
+	color: #878787;
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.helpSd {
+	font-size: 14px;
+	padding-left: 10px;
+	padding-top: 3px;
+	cursor: pointer;
+}
+
+.helpThd {
+	font-size: 20px;
+	color: #878787;
+}
+
+.fiveRevs {
+	font-size: 14px;
+	color: #878787;
+}
+
+.simProdTxt {
+	padding: 16px;
+}
+
+.numContentzz {
+	gap: 5px;
+}
+
+.footerSectionn {
+	border-bottom: 1px solid #454d5e;
+}
+
+.corporateTxtt {
+	font-size: 12px;
+}
+
+.detail {
+	cursor: pointer;
 }

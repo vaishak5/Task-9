@@ -1,0 +1,1639 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.flipkartlogo {
+	cursor: pointer;
+}
+
+.explore a {
+	text-decoration: none;
+}
+
+.explore p {
+	font-style: italic;
+	color: white;
+	font-size: 12px;
+
+}
+
+.explore p:hover {
+	text-decoration: underline;
+}
+
+.plus {
+	color: yellow;
+}
+
+.aSeller {
+	display: flex;
+	align-items: center;
+}
+
+.advertise {
+	display: flex;
+	align-items: center;
+}
+
+.giftCard {
+	display: flex;
+	align-items: center;
+}
+
+.helpCenter {
+	display: flex;
+	align-items: center;
+}
+
+.corporate {
+	display: flex;
+	align-items: center;
+}
+
+.cards {
+	display: flex;
+	align-items: center;
+}
+
+.search {
+	width: 383px;
+}
+
+.searchBox {
+	padding: 5px;
+	width: 403px;
+	border: 1px solid #ddd;
+	/*padding-left: 10px;
+	margin-left: 20px;*/
+	background-color: white;
+
+}
+
+.headerNavSdd {
+	width: 100%;
+	background-color: #2874f0;
+	padding: 5px;
+}
+
+.searchBoxx {
+	background-color: white;
+	border: 1px solid #ddd;
+	padding: 2px;
+}
+
+.accountt {
+	color: white;
+	font-size: 12px;
+}
+
+.sellerTxtt {
+	color: white;
+	font-size: 12px;
+}
+
+.moree {
+	color: white;
+	font-size: 12px;
+}
+
+.carttt {
+	color: white;
+	font-size: 12px;
+}
+
+.search input {
+	border-style: none;
+	width: 225px;
+	outline: none;
+	font-size: 13px;
+}
+
+.searchIcon svg {
+	cursor: pointer;
+}
+
+.account {
+	color: white;
+	font-weight: 600;
+}
+
+.sellerTxt {
+	color: white;
+	font-size: 16px;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.more {
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.cart {
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	gap: 10px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.headerNavSd {
+	background-color: #2874f0;
+	width: 100%;
+	padding: 10px;
+}
+
+.headerSecond {
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+	font-family: Roboto, Arial, sans-serif;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: black;
+}
+
+.headerSecondNav {
+	cursor: pointer;
+}
+
+.dropdown span {
+	font-size: 13px;
+}
+
+.electronics:hover {
+	color: #2874f0;
+}
+
+.electronics span:hover {
+	color: #2874f0;
+}
+
+.tv:hover {
+	color: #2874f0;
+}
+
+.tv span:hover {
+	color: #2874f0;
+}
+
+.men:hover {
+	color: #2874f0;
+}
+
+.men span:hover {
+	color: #2874f0;
+}
+
+.women:hover {
+	color: #2874f0;
+}
+
+.women span:hover {
+	color: #2874f0;
+}
+
+.baby:hover {
+	color: #2874f0;
+}
+
+.baby span:hover {
+	color: #2874f0;
+}
+
+.home:hover {
+	color: #2874f0;
+}
+
+.home span:hover {
+	color: #2874f0;
+}
+
+.sports:hover {
+	color: #2874f0;
+}
+
+.sports span:hover {
+	color: #2874f0;
+}
+
+.flights:hover {
+	color: #2874f0;
+}
+
+.flights span:hover {
+	color: #2874f0;
+}
+
+.offer:hover {
+	color: #2874f0;
+}
+
+.offer span:hover {
+	color: #2874f0;
+}
+
+.mainSectionSet {
+	background-color: rgb(255, 255, 255);
+	padding: 16px;
+
+}
+
+.rightImagesSet {
+	display: flex;
+	flex-direction: column;
+}
+
+.buttonSet {
+
+	gap: 14px;
+	cursor: pointer;
+
+}
+
+.cartt {
+	color: white;
+	background-color: #ff9f00;
+	border-style: none;
+	outline: none;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+}
+
+.cartttt {
+	color: white;
+	background-color: #ff9f00;
+	border-style: none;
+	outline: none;
+	padding-left: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 11px;
+}
+
+.buy {
+	color: white;
+	border-style: none;
+	outline: none;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	background-color: #fb641b;
+}
+
+.ftSectionLeft {
+	cursor: pointer;
+}
+
+.prodSet span:hover {
+	color: #0d6efd;
+}
+
+.mainSectionSd {
+	/*padding: 0px 0px 0px 24px;*/
+}
+
+.prodSet span {
+	font-size: 12px;
+	color: #878787;
+}
+
+.ftSectionRight span {
+	font-size: 12px;
+	color: #878787;
+}
+
+.ftSectionRight span:hover {
+	color: #0d6efd;
+}
+
+.prodName {
+	font-size: 18px;
+	color: #212121;
+	line-height: 1.4;
+}
+
+.ratings {
+	cursor: pointer;
+}
+
+.rateTxt {
+	font-size: 14px;
+	color: #878787;
+}
+
+.splPc p {
+	font-weight: 500;
+	/* text-align: left; */
+	color: #388e3c;
+}
+
+.splTxt {
+	font-size: 25px;
+	color: #212121;
+}
+
+.delete {
+	color: #878787;
+}
+
+.off {
+	color: #388e3c;
+}
+
+.partners {
+	line-height: 2;
+}
+
+.partners span {
+	font-size: 14px;
+	color: #212121;
+}
+
+.partners a {
+	text-decoration: none;
+	outline: none;
+	font-size: 14px;
+}
+
+.viewOffer {
+	font-size: 14px;
+	color: #2874f0;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.splPcSd img {
+	cursor: pointer;
+}
+
+.pincode {
+	font-size: 12px;
+	border: 1px solid #ddd;
+	background-color: white;
+	color: #2874f0;
+	border-radius: 2px;
+
+}
+
+.delSet span {
+	font-size: 14px;
+	color: #878787;
+}
+
+.dvery {
+	font-size: 12px;
+	color: #388e3c;
+}
+
+.deliveryCont {
+	gap: 20px;
+}
+
+.deliveryContFt {
+	padding: 0px 10px 0px 0px;
+}
+
+.loc {
+	padding: 0 0 4px;
+	gap: 10px;
+	border-bottom: 2px solid #2874f0;
+	margin-left: 25px;
+}
+
+.loc span {
+	font-size: 15px;
+	color: #2874f0;
+	cursor: default;
+
+}
+
+
+.ship {
+	margin: 8px 0 0 105px;
+	font-size: 14px;
+
+}
+
+.freeDee span {
+	font-size: 16px;
+
+}
+
+.highlight p {
+	font-size: 14px;
+	color: #878787;
+}
+
+.detail {
+	margin: 0px 0 0 113px;
+	font-size: 14px;
+	color: #2874f0;
+}
+
+.list {
+	margin-left: 33px;
+}
+
+.lists {
+	font-size: 14px;
+}
+
+.services {
+
+	margin-top: 5px;
+}
+
+.rsSet {
+
+	margin-top: 5px;
+}
+
+.avb {
+	font-size: 14px;
+
+}
+
+.highSer {
+	gap: 25px;
+}
+
+.imp {
+	gap: 18px;
+	font-size: 14px;
+}
+
+.imp p {
+	color: #878787;
+}
+
+.sell {
+	font-size: 14px;
+}
+
+.sellTxt {
+	gap: 73px;
+}
+
+.seller {
+	color: #878787;
+}
+
+.four {
+	margin-left: 8px;
+	border-radius: 10px;
+	background: #2874f0;
+	font-size: 11px;
+}
+
+.days {
+	padding-left: 1rem;
+
+}
+
+.see {
+	color: #2874f0;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.protect h4 {
+	font-size: 20px;
+}
+
+.bajaj {
+	gap: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+
+.bajajTxt h5 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.financial {
+	font-size: 14px;
+	color: #212121;
+}
+
+.bajajTxt a {
+	color: #2874f0;
+	margin-left: 5px;
+	font-weight: 500;
+	cursor: pointer;
+	text-decoration: none;
+	outline: none;
+	font-size: 14px;
+}
+
+.digital {
+	font-size: 14px;
+	color: #878787;
+}
+
+.rupees {
+	margin-top: 16px;
+}
+
+.rp {
+	font-weight: 600;
+}
+
+.cut {
+	margin-left: 8px;
+	color: #878787;
+	font-size: 14px;
+}
+
+.offf {
+	padding-left: 10px;
+	color: #388e3c;
+	font-size: 13px;
+}
+
+.rep {
+	font-size: 12px;
+}
+
+.rep span {
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.oneIt {
+	padding: 20px 0;
+}
+
+.ft span {
+	padding: 0px 40px;
+}
+
+.three {
+	padding: 0px 40px;
+}
+
+.ftItem {
+	font-size: 14px;
+}
+
+.add {
+	font-size: 20px;
+	color: #878787;
+}
+
+.items {
+	border-bottom: 1px solid #ddd;
+
+}
+
+.itemsBtn {
+	padding: 0 16px;
+}
+
+.itemBtns {
+	padding: 14px;
+	color: #fff;
+	background-color: #ff9f00;
+	width: 100%;
+	font-size: 14px;
+	text-align: center;
+	border-style: none;
+	outline: none;
+}
+
+.specs {
+	border-bottom: 1px solid #ddd;
+}
+
+.specs h3 {
+	padding: 24px 30px 24px 24px;
+
+}
+
+.general {
+	padding: 3px 24px 34px;
+	border-bottom: 1px solid #ddd;
+}
+
+.generalMainSetFt,
+.generalMainSetFif {
+	font-size: 14px;
+	gap: 150px;
+}
+
+.generalMainSetSd {
+	font-size: 14px;
+	gap: 181px;
+}
+
+.reviews {
+	justify-content: space-between;
+}
+
+.revHead {
+	font-weight: 500;
+	font-size: 24px;
+	padding: 24px 0 0 24px;
+}
+
+.generalMainSetThd {
+	font-size: 14px;
+	gap: 186px;
+}
+
+.rateBtn button {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .26);
+	border: none;
+	font-size: 14px;
+	color: #212121;
+	padding: 16px 36px;
+	cursor: pointer;
+	margin: 18px 18px 0 0;
+	background-color: white;
+	font-weight: 550;
+}
+
+.generalMain {
+	gap: 10px;
+}
+
+.generalMainSetFor {
+	font-size: 14px;
+	gap: 155px;
+}
+
+.generalMainSetSix {
+	font-size: 14px;
+	gap: 133px;
+}
+
+.generalMainSetSeven {
+	font-size: 14px;
+	gap: 159px;
+}
+
+.ratingzz {
+	gap: 5px;
+}
+
+.genTxt {
+	font-size: 14px;
+	color: #878787;
+}
+
+.cond {
+	font-size: 14px;
+	color: #212121;
+}
+
+.read {
+	padding: 24px;
+	font-size: 16px;
+	color: #2874f0;
+	border-bottom: 1px solid #ddd;
+}
+
+.read a {
+	text-decoration: none;
+	outline: none;
+}
+
+.frequent {
+	border-bottom: 1px solid #ddd;
+}
+
+.frequentTxt {
+	padding: 24px 0 0 24px;
+}
+
+.frequentTxt span {
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.dollImages {
+	padding: 16px;
+}
+
+/*.dollSet {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}*/
+
+.dollSetTxt p {
+	font-size: 14px;
+}
+
+.thirtyTwo {
+	font-size: 14px;
+	color: #878787;
+}
+
+.addd {
+	font-size: 33px;
+	color: #878787;
+	padding-left: 20px;
+}
+
+.dollSett {
+	/*display: flex;
+	align-items: center;*/
+}
+
+.icon {
+	font-size: 30px;
+}
+
+.rateRevs {
+	color: #878787;
+	font-size: 14px;
+}
+
+.num {
+	padding: 24px;
+}
+
+.rateImg {
+	padding: 24px;
+}
+
+.comments {
+	padding: 24px;
+}
+
+.revCmt {
+	/*display: flex;
+	justify-content: space-between;*/
+}
+
+.lord {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.cmtFt span {
+	padding-left: 12px;
+	padding-top: 3px;
+	font-size: 14px;
+	color: #212121;
+	font-weight: 500;
+}
+
+.cmtFt p {
+	line-height: 1.4;
+	font-size: 14px;
+	color: #212121;
+}
+
+.revName {
+	font-size: 12px;
+	color: #878787;
+	margin-right: 8px;
+}
+
+.lord p {
+	font-size: 14px;
+	color: #878787;
+}
+
+.lord span {
+	font-size: 14px;
+	color: #878787;
+}
+
+.rateRev {
+	border-bottom: 1px solid #ddd;
+}
+
+.comments {
+	border-bottom: 1px solid #ddd;
+}
+
+.allRev {
+	font-size: 16px;
+	color: #2874f0;
+	cursor: pointer;
+	padding: 24px;
+	font-weight: 550;
+	border-bottom: 1px solid #ddd;
+}
+
+.allRev a {
+	text-decoration: none;
+	outline: none;
+}
+
+.allRev span {
+	color: #878787;
+}
+
+.doubts {
+	padding: 16px 24px;
+	border-bottom: 1px solid #ddd;
+}
+
+.post {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .26);
+	border: none;
+	color: #212121;
+	font-size: 14px;
+	width: 232px;
+	padding: 16px 0;
+	background-color: #f9f9f9;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.doubts span {
+	font-size: 24px;
+	font-weight: 520;
+	color: #212121;
+}
+
+.safe {
+	margin: 4px 15px 8px;
+	text-align: center;
+}
+
+.safeTxt {
+	font-size: 14px;
+	color: #878787;
+	padding-left: 6px;
+}
+
+.might {
+	padding: 32px 32px 24px;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.mightImages {
+	/*margin: 0 32px;*/
+	display: flex;
+	padding: 12px;
+}
+
+.mightImagesTxt p {
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.mightImagesTxt {
+	padding: 24px;
+}
+
+.cube {
+	display: flex;
+	flex-direction: column;
+}
+
+.cube span {
+	font-size: 18px;
+	color: #878787;
+	margin-top: 4px;
+}
+
+.shop {
+	margin-top: 5px;
+	color: #fff;
+	background: #2874f0;
+	border-radius: 2px;
+	border: none;
+	padding: 4px 1px;
+	box-shadow: none;
+	width: 106px;
+}
+
+.simProdTxt span {
+	font-weight: 500;
+	padding-left: 20px;
+	font-size: 22px;
+}
+
+.imgg {
+	display: flex;
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+
+}
+
+.simProdImagesSet {
+	margin: 0px 32px;
+}
+
+.imgcon {
+	padding-left: 10px;
+}
+
+.note {
+	padding-left: 10px;
+}
+
+.note p {
+	font-size: 12px;
+	color: #878787;
+}
+
+.zuku {
+	font-size: 14px;
+}
+
+.simProdImages {
+	padding: 16px;
+}
+
+.simiProd {
+	display: flex;
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+}
+
+.category {
+	width: 120px;
+	height: 120px;
+}
+
+.earn {
+	justify-content: center;
+	font-size: 14px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+
+}
+
+.useIt {
+	font-size: 14px;
+}
+
+.useIt a {
+	text-decoration: none;
+	outline: none;
+}
+
+.pro {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.allDet {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.proDet {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.pincode {
+	padding: 5px;
+}
+
+.note p {
+	color: #388e3c;
+}
+
+.rate {
+	border: 1px solid #ddd;
+	color: #2874f0;
+	background-color: white;
+	padding-left: 15px;
+	padding-right: 13px;
+}
+
+.ver p {
+	font-size: 14px;
+	color: #878787;
+}
+
+.likeBo {
+	/*display: flex;*/
+	border: 1px solid #ddd;
+	padding-left: 2px;
+	padding-right: 4px;
+	border-radius: 8px;
+}
+
+.diLike {
+	border: 1px solid #ddd;
+	padding: 1px;
+	border-radius: 15px;
+}
+
+.regard p {
+	font-size: 14px;
+}
+
+.postt {
+	display: flex;
+	justify-content: center;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+.freqBou {
+	border-bottom: 1px solid #ddd;
+}
+
+.adds {
+	border: 1px solid #ddd;
+	height: 26px;
+}
+
+.cactusTxt {
+	font-size: 14px;
+}
+
+.twoSev {
+	color: #388e3c;
+}
+
+.cactus {
+	border-bottom: 1px solid #ddd;
+}
+
+.dot {
+	border: 1px solid #ddd;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: darkslategrey;
+}
+
+.bigBtnFt {
+	font-size: 14px;
+}
+
+.bigBtnFt {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bigBtn {
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 6px;
+
+}
+
+.othSellers {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.lowPr {
+	border: 1px solid #ddd;
+	padding: 5px;
+	border-radius: 20px;
+	font-size: 14px;
+}
+
+.byNo {
+	border: 1px solid #ddd;
+	background-color: #ff9f00;
+	font-size: 14px;
+	padding: 5px 40px 5px 40px;
+}
+
+.simProdHeadings {
+	/*display: flex;
+	justify-content: space-between;*/
+	padding: 16px;
+	font-size: 14px;
+	border-bottom: 1px solid #ddd;
+}
+
+.simProdImagess {
+	padding: 16px;
+}
+
+.simProdImagesSet {
+	margin: 0px 32px;
+}
+
+.simProdHeadingss {
+	font-size: 12px;
+	padding: 13px;
+}
+
+.footer {
+	background-color: #172337;
+
+}
+
+.footerSection {
+	margin-left: 65px;
+	width: 90% !important;
+	padding-top: 40px;
+	display: flex;
+	gap: 38px;
+}
+
+.about {
+	/*display: flex;
+	flex-direction: column;*/
+	gap: 15px;
+}
+
+.aboutSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.aboutBelow {
+	color: #ffffff;
+	font-size: 12px;
+	/*display: flex;
+	flex-direction: column;*/
+	gap: 15px;
+}
+
+.aboutBelow p {
+	cursor: pointer;
+}
+
+.aboutBelow p:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.groupCompany {
+	/*display: flex;
+	flex-direction: column;*/
+	gap: 15px;
+}
+
+.groupSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.groupBelow {
+	color: #ffffff;
+	font-size: 12px;
+	/*display: flex;
+	flex-direction: column;*/
+	gap: 15px;
+}
+
+.groupBelow p {
+	cursor: pointer;
+}
+
+.groupBelow p:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.help {
+	/*display: flex;
+	flex-direction: column;*/
+	gap: 10px;
+}
+
+.helpSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.helpBelow {
+	color: #ffffff;
+	font-size: 12px;
+	/*display: flex;
+	flex-direction: column;*/
+	gap: 15px;
+}
+
+.helpBelow p {
+	cursor: pointer;
+}
+
+.helpBelow p:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.consumer {
+	/*display: flex;
+	flex-direction: column;*/
+	gap: 15px;
+
+}
+
+.consumerSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.consumerBelow {
+	color: #ffffff;
+	font-size: 12px;
+	/*display: flex;
+	flex-direction: column;*/
+	gap: 15px;
+}
+
+.consumerBelow p {
+	cursor: pointer;
+}
+
+.consumerBelow p:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.line {
+	border: 1px solid #454d5e;
+	margin-left: 10px;
+}
+
+.mailUs {
+	/*display: flex;
+	flex-direction: column;*/
+	gap: 15px;
+
+}
+
+.mailSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.mailBelow {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.social p {
+	color: #878787;
+	font-size: 12px;
+}
+
+.socialIcons {
+	/*display: flex;
+	align-items: center;*/
+	gap: 15px;
+}
+
+.socialIcons img {
+	cursor: pointer;
+}
+
+.registeredOffice {
+	/*display: flex;
+	flex-direction: column;*/
+	gap: 15px;
+
+}
+
+.registeredOfficeSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.registeredOfficeBelow {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.5
+}
+
+.registeredOfficeBelow a {
+	text-decoration: none;
+	color: #2874F0;
+}
+
+.footerBelow {
+	border-top: 1px solid #454d5e;
+	padding: 25px 0;
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footerBelow a {
+	text-decoration: none;
+	color: white;
+}
+
+.footerBelowSet {
+	font-size: 14px;
+	gap: 30px;
+}
+
+.corporate {
+	color: white;
+}
+
+.dropdown span {
+	font-size: 15px;
+	margin-top: 2px;
+
+}
+
+.footerBelowSet img {
+	cursor: default;
+}
+
+.footerBeloww a {
+	text-decoration: none;
+	outline: none;
+	color: white;
+	font-size: 14px;
+}
+
+.footerBelowSett {
+	padding-top: 10px;
+	padding-bottom: 15px;
+
+}
+
+.corporate p {
+	font-size: 14px;
+}
+
+.footerBelowwSet a {
+	font-size: 12px;
+	text-decoration: none;
+	outline: none;
+	color: white;
+}
+
+.footerSectionn {
+	border-bottom: 1px solid #454d5e;
+}
+
+.leftImages img {
+	cursor: pointer;
+}
+
+.rightImages img {
+	cursor: default;
+}
+
+.es {
+	color: #2874f0;
+	cursor: pointer;
+}
+
+.ess img {
+	cursor: pointer;
+}
+
+.super img {
+	cursor: pointer;
+}
+
+.bajajTxt h5 {
+	cursor: default;
+}
+
+.add {
+	cursor: default;
+}
+
+.itemBtn {
+	cursor: pointer;
+}
+
+.dollSet img {
+	cursor: pointer;
+}
+
+.addd {
+	cursor: default;
+}
+
+.dollImages img {
+	cursor: pointer;
+}
+
+.dolll {
+	cursor: pointer;
+}
+
+.dolll:hover {
+	color: #2874f0;
+}
+
+.rate {
+	cursor: pointer;
+}
+
+.lord {
+	cursor: pointer;
+}
+
+.mightImages {
+	cursor: pointer;
+}
+
+.simProdImagesSet {
+	cursor: pointer;
+}
+
+.imgcon {
+	cursor: pointer;
+}
+
+.imgcon :hover {
+	color: #0d6efd;
+}
+
+.offf p {
+	color: #878787;
+}
+
+.simProdHeadings {
+	cursor: pointer;
+}
+
+.simProdImagesSett {
+	cursor: pointer;
+}
+
+.imgcons {
+	cursor: pointer;
+}
+
+.imgcons :hover {
+	color: #0d6efd;
+}
+
+.highRatingss {
+	font-size: 27px;
+}
+
+.dropdown {
+	color: #D3D3D3;
+}
+
+.cartSet {
+	text-decoration: none;
+}
+
+.headerNavSecond {
+	font-size: 16px;
+}
+
+.frDelivry {
+	font-size: 12px;
+}
+
+.dveryyz {
+	color: #388e3c;
+}
+
+.delInWedn {
+	font-size: 13px;
+	border-right: 1px solid black;
+	padding-right: 4px;
+}
+
+.mayTxt {
+	font-size: 14px;
+	padding-left: 4px;
+}
+
+.strz {
+	padding-left: 6px;
+}
+
+.sponsorTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+.errorz,
+.prodShown {
+	font-size: 14px;
+}
+
+.more span {
+	font-size: 15px;
+}
+
+.goodTxt {
+	color: #878787;
+}
+
+.goodConts {
+	display: flex;
+	align-items: baseline;
+	gap: 5px;
+}
+
+.morevert {
+	font-size: 20px;
+	color: #878787;
+}
+
+.commentss {
+	border-bottom: 1px solid #ddd;
+}
+
+.ver {
+	padding-bottom: 10px;
+}
+
+.boughtTog {
+	font-size: 14px;
+}
+
+.estComboo {
+	font-size: 14px;
+}
+
+.oneYr,
+.zuku,
+.rp {
+	font-size: 14px;
+}
+
+.deliveryContFt p {
+	font-size: 14px;
+	color: #878787;
+}
+
+.pinNoo {
+	font-size: 14px;
+}
+
+.ch {
+	padding-left: 50px;
+	cursor: pointer;
+}
+
+.delInWednesday {
+	font-size: 13px;
+	border-right: 1px solid black;
+	padding-left: 7px;
+	padding-right: 5px;
+}
+
+.dveryy {
+	padding-left: 5px;
+	color: #388e3c;
+}
+
+.rssForty {
+	font-size: 13px;
+	padding-left: 4px;
+}
+
+.helpz {
+	font-size: 17px;
+	color: #878787;
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.helpSd {
+	font-size: 14px;
+	padding-left: 10px;
+	padding-top: 3px;
+	cursor: pointer;
+}
+
+.helpThd {
+	font-size: 20px;
+	color: #878787;
+}
+
+.fiveRevs {
+	font-size: 14px;
+	color: #878787;
+}
+
+.simProdTxt {
+	padding: 16px;
+}
+
+.numContentzz {
+	gap: 5px;
+}
+
+.footerSectionn {
+	border-bottom: 1px solid #454d5e;
+}
+
+.corporateTxtt {
+	font-size: 12px;
+}
+
+.detail {
+	cursor: pointer;
+}

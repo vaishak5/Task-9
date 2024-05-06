@@ -1,0 +1,647 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, Arial, sans-serif;
+
+}
+
+.headerNav {
+	display: flex;
+	background-color: #2874f0;
+	padding: 10px;
+}
+
+.headerNavFirst {
+	display: flex;
+	padding-left: 155px;
+}
+
+.flipkartlogo {
+	cursor: pointer;
+}
+
+.explore {
+	display: flex;
+	align-items: center;
+}
+
+.explore a {
+	text-decoration: none;
+}
+
+.explore p {
+	font-style: italic;
+	color: white;
+	font-size: 12px;
+
+}
+
+.explore p:hover {
+	text-decoration: underline;
+}
+
+.plus {
+	color: yellow;
+}
+
+.main {
+	background-color: #f1f3f6;
+}
+
+.mainBody {
+	max-width: 1260px;
+	margin: 0 auto;
+	background-color: #f1f3f6;
+	display: flex;
+	gap: 15px;
+}
+
+.mainSection {
+	padding: 8px;
+	width: 70%;
+	margin-top:14px;
+
+}
+
+.mainSectionFirst {
+	display: flex;
+	background-color: white;
+	justify-content: space-between;
+	padding: 16px 24px;
+}
+
+.login {
+	display: flex;
+}
+
+.number {
+	margin: 0px 17px 0px 0px;
+	border: 1px solid #ddd;
+	color: #2874f0;
+	width: 20.69px;
+	height: 20px;
+}
+
+.one {
+	padding-left: 6px;
+	font-size: 12px;
+
+}
+
+.logTxt {
+	display: flex;
+	flex-direction: column;
+	cursor: default;
+}
+
+.log {
+	color: #878787;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 6px;
+}
+
+.mob {
+	font-size: 14px;
+	margin-left: 6px;
+}
+
+.changeBtn {
+	padding: 0px 32px;
+	background-color: #ffffff;
+	color: #2874f0;
+	border-style: none;
+	outline: none;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 40px;
+	font-weight: 600;
+}
+
+.mainSectionSecond {
+	margin-top: 20px;
+	cursor: default;
+}
+
+.mainSectionSecondContents {
+	padding: 14px 24px;
+}
+
+.numberSd {
+	font-size: 12px;
+	color: #2874f0;
+	background-color: #f0f0f0;
+	border-radius: 2px;
+	padding: 3px 7px;
+
+	margin-right: 17px;
+}
+
+.deltxt {
+	font-size: 16px;
+	color: white;
+	font-weight: 600;
+}
+
+.mainSectionSecond {
+	background-color: #2874f0;
+}
+
+.address {
+	padding: 16px 24px;
+	display: flex;
+	border-bottom: 1px solid #ddd;
+	background-color: white;
+
+}
+
+.addressMain {
+	margin-left: 18px;
+	cursor: default;
+
+
+}
+
+.addAddress span {
+	color: #2874f0;
+	font-size: 14px;
+
+	font-weight: 600;
+}
+
+.location button {
+	padding: 14px 24px;
+	font-size: 14px;
+	background: #2874f0;
+	color: #fff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+	border: none;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	cursor: pointer;
+	display: flex;
+	gap: 4px;
+}
+
+.formSet {
+	display: flex;
+	gap: 55px;
+
+}
+
+.formSetSecond {
+	display: flex;
+	gap: 55px;
+	margin-top: 10px;
+}
+
+.nameSet input[type=text] {
+	padding: 20px 30px 9px 13px;
+	border: 1px solid #ddd;
+	color: #878787;
+	width: 100%;
+	outline: none;
+}
+
+.digitNo input[type=text] {
+	padding: 20px 30px 9px 13px;
+	border: 1px solid #ddd;
+	color: #878787;
+	width: 100%;
+	outline: none;
+}
+
+.pincode input[type=text] {
+	padding: 20px 30px 9px 13px;
+	border: 1px solid #ddd;
+	color: #878787;
+	width: 100%;
+	outline: none;
+}
+
+.local input[type=text] {
+	padding: 20px 30px 9px 13px;
+	border: 1px solid #ddd;
+	color: #878787;
+	width: 100%;
+	outline: none;
+}
+
+.area {
+	border: 1px solid #ddd;
+}
+
+.area input[type=text] {
+	padding: 20px 30px 60px 13px;
+	border-style: none;
+	color: #878787;
+	outline: none;
+}
+
+.state input {
+	border-style: none;
+	font-size: 12px;
+	padding-left: 13px;
+	color: #878787;
+	outline: none;
+}
+
+.detail {
+	display: flex;
+}
+
+.city input[type=text] {
+	padding: 20px 30px 9px 13px;
+	border: 1px solid #ddd;
+	color: #878787;
+	width: 100%;
+	outline: none;
+}
+
+.oppmain {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	justify-content: space-between;
+}
+
+.formSetFifth {
+	border: 1px solid #ddd;
+	width: 256px;
+}
+
+.detail {
+	gap: 56px;
+	margin-top: 10px;
+}
+
+.formSetFifth {
+	background-color: white;
+}
+
+.formSetThird {
+	background-color: white;
+	margin-top: 10px;
+}
+
+.opp p {
+	padding-left: 10px;
+}
+
+.landmark {
+	display: flex;
+	gap: 55px;
+	margin-top: 10px;
+}
+
+.land input[type=text] {
+	padding: 20px 30px 9px 13px;
+	border: 1px solid #ddd;
+	color: #878787;
+	width: 100%;
+	outline: none;
+}
+
+.altern input[type=text] {
+	padding: 20px 30px 9px 13px;
+	border: 1px solid #ddd;
+	color: #878787;
+	width: 100%;
+	outline: none;
+}
+
+.time {
+	padding-left: 13px;
+	width: 100%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.time p {
+	font-size: 12px;
+	color: #878787;
+	margin-bottom: 10px;
+}
+
+.delivered {
+	display: flex;
+	align-items: center;
+	gap: 45px;
+}
+
+.home span {
+	font-size: 14px;
+	color: #212121;
+}
+
+.work span {
+	font-size: 14px;
+	color: #212121;
+}
+
+.saveHere {
+	margin-top: 30px;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+
+}
+
+.saveBtn {
+	background: #fb641b;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+	border: none;
+	color: #fff;
+	padding: 15px 25px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.order {
+	display: flex;
+	padding: 14px 24px;
+	align-items: center;
+	border-bottom: 1px solid #ddd;
+	background-color: white;
+	cursor: default;
+}
+
+.ord span {
+	color: #878787;
+	font-weight: 600;
+}
+
+.payment {
+	display: flex;
+	padding: 14px 24px;
+	align-items: center;
+	border-bottom: 1px solid #ddd;
+	background-color: white;
+	cursor: default;
+}
+
+.pay span {
+	color: #878787;
+	font-weight: 600;
+}
+
+.secondSection {
+	padding: 0px 0px 0px 16px;
+	margin-top: 10px;
+
+}
+
+.secondSectionFirst {
+	margin-top: 12px;
+	background-color: white;
+	cursor: default;
+}
+
+.price {
+	padding: 13px 0px;
+	font-weight: 600;
+}
+
+.price span {
+	padding: 13px 24px;
+	color: #878787;
+	font-size: 14px;
+
+}
+
+.amount {
+	display: flex;
+	margin: 20px 0;
+
+}
+
+.amountDetails {
+	display: flex;
+	margin-top: 20px;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.amountSet {
+	display: flex;
+	flex-direction: column;
+	padding: 0 24px;
+	color: #212121;
+	border-top: 1px solid #ddd;
+}
+
+.amountSecond {
+	display: flex;
+}
+
+.amountDetailsSecond {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+
+}
+
+.amountThd {
+	display: flex;
+	margin: 20px 0;
+}
+
+.amountDetailsThd {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding-bottom: 15px;
+}
+
+.total {
+	display: flex;
+	font-size: 18px;
+	color: #212121;
+	border-top: 1px dashed #e0e0e0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	justify-content: space-between;
+}
+
+.saved {
+	border-top: 1px dashed #e0e0e0;
+	padding: 12px 0px;
+	color: #388e3c;
+	font-size: 16px;
+	font-weight: 600;
+
+}
+
+.waranty {
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+	background: #f4f8ff;
+	padding: 16px;
+	border: 1px solid #e0e0e0;
+}
+
+.warantyPlan p {
+	font-size: 16px;
+	color: #212121;
+}
+
+.extendedWaranty {
+	display: flex;
+}
+
+.ex {
+	font-size: 16px;
+	color: #212121;
+}
+
+.yr {
+	font-size: 14px;
+	color: #878787;
+	margin-top: 5px;
+}
+
+.exAmt {
+	display: flex;
+	margin: 12px 0 4px;
+}
+
+.delAmt {
+	font-size: 14px;
+	color: #878787;
+	margin-left: 8px;
+}
+
+.discount span {
+	font-size: 13px;
+	color: #388e3c;
+	margin-left: 8px;
+}
+
+.addBtn button {
+	background-color: #ff9f00;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+	border: none;
+	color: #fff;
+	padding: 16px 30px;
+	min-width: 152px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.warantyCard p {
+	text-align: left;
+	line-height: 20px;
+
+	font-size: 14px;
+	color: #212121;
+}
+
+.warantyCard a {
+
+	text-decoration: none;
+	outline: none;
+	color: #2874f0;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.safe {
+	margin-top: 25px;
+	cursor: default;
+
+}
+
+.safeContent {
+	display: flex;
+	gap: 10px;
+	padding-left: 10px;
+}
+
+.guardTxt {
+	font-size: 14px;
+	color: #878787;
+	font-weight: 550;
+}
+
+.footer {
+	border-top: 1px solid #ddd;
+	margin: 0 auto;
+	padding: 25px;
+	margin-top: 20px;
+
+}
+
+.footerContents {
+	display: flex;
+	font-size: 14px;
+	color: #565656;
+	margin-left: 60px;
+}
+
+.return {
+	padding: 0px 5px;
+	border-right: 1px solid #878787;
+	cursor: pointer;
+}
+
+.term {
+	padding: 0px 5px;
+	border-right: 1px solid #878787;
+	cursor: pointer;
+}
+
+.security {
+	padding: 0px 5px;
+	border-right: 1px solid #878787;
+	cursor: pointer;
+}
+
+.privacy {
+	padding: 0px 5px;
+	border-right: 1px solid #878787;
+	cursor: pointer;
+}
+
+.infringement {
+	padding: 0px 5px;
+	border-right: 1px solid #878787;
+	cursor: pointer;
+}
+
+.footerSecond {
+	margin-left: 25px;
+}
+
+.footerThird {
+	margin-left: 200px;
+}
+
+.footerThird span {
+	font-size: 14px;
+	color: #565656;
+}
+
+.footerThird span a {
+	text-decoration: none;
+	outline: none;
+	color: #2874f0;
+}
+
+.cancelBtn {
+	padding: 0px 32px;
+	background-color: #ffffff;
+	color: #2874f0;
+	border-style: none;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 40px;
+	font-weight: 600;
+}
+
+.totalAmt b {
+	color: #11112;
+}
+

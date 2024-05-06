@@ -1,0 +1,461 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+.headerNav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #2874f0;
+	padding: 8px;
+}
+
+.headerNavFirst,
+.explore {
+	display: flex;
+	align-items: center;
+}
+
+.headerNavSecond {
+	display: flex;
+	gap: 30px;
+	margin-left: 36px;
+	align-items: center;
+
+}
+
+.flipkartLogo {
+	cursor: pointer;
+}
+
+
+.explore a {
+	text-decoration: none;
+}
+
+.explore p {
+	font-style: italic;
+	color: white;
+	font-size: 12px;
+
+}
+
+.explore p:hover {
+	text-decoration: underline;
+}
+
+.plus {
+	color: yellow;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	gap: 148px;
+}
+
+.searchBox {
+	padding: 5px;
+	width: 415px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	margin-left: 20px;
+	background-color: white;
+}
+
+.search input {
+	border-style: none;
+	width: 225px;
+	outline: none;
+}
+
+.searchIcon svg {
+	cursor: pointer;
+	padding-top: 3px;
+}
+
+.login {
+	padding: 6px;
+	border: 1px solid #ddd;
+	margin-left: 15px;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+.login input {
+	border-style: none;
+	width: 100px;
+	text-align: center;
+	font-size: 16px;
+	color: #2874F0;
+	font-weight: 600;
+	outline: none;
+	cursor: pointer;
+}
+
+.sellerTxt {
+	color: white;
+	font-size: 16px;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.more {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.cart {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	gap: 10px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.headerSecond {
+	display: flex;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+	font-family: Roboto, Arial, sans-serif;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: black;
+}
+
+.headerSecondNav {
+	display: flex;
+	justify-content: space-evenly;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+	font-family: Roboto, Arial, sans-serif;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: #212121;
+
+}
+
+.dropdown {
+	color: #D3D3D3;
+}
+
+.electronics,
+.tv,
+.men,
+.women,
+.baby,
+.home,
+.sports,
+.flights,
+.offer {
+	display: flex;
+	align-items: center;
+}
+
+.electronics:hover,
+.tv:hover,
+.electronics span:hover,
+.tv span:hover,
+.men:hover,
+.men span:hover,
+.women:hover,
+.women span:hover,
+.baby:hover,
+.baby span:hover,
+.home:hover,
+.home span:hover,
+.sports:hover,
+.sports span:hover,
+.flights:hover,
+.flights span:hover,
+.offer:hover,
+.offer span:hover {
+	color: #2874f0;
+}
+
+.mainSection {
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	background-color: #f1f3f6;
+}
+
+.mainSectionFirst {
+	width: 336px;
+}
+
+.mainSectionSecond {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+	border-right: 1px solid #ddd;
+	width: 437px;
+	padding: 56px 35px 16px;
+}
+
+.loginSection {
+	background-color: #2874f0;
+	color: #fff;
+	padding: 40px 33px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.logoPart {
+	display: flex;
+	flex-direction: column;
+	gap: 213px;
+}
+
+.log {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.log p {
+	color: #DBDBDB;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.access p {
+	font-size: 18px;
+}
+
+.enter {
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+}
+
+.details {
+	border-bottom: 1px solid #ddd;
+}
+
+.details input {
+	border-style: none;
+	outline: none;
+	font-size: 14px;
+	padding: 8px 10px 10px 0;
+	color: #000;
+}
+
+.privacyTxt p {
+	font-size: 12px;
+	color: #878787;
+}
+
+.privacyTxt a {
+	text-decoration: none;
+	color: #2874f0;
+}
+
+.reqBtn {
+	width: 100%;
+	padding: 10px 20px;
+	border-style: none;
+	background-color: #fb641b;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 500;
+
+}
+
+.createAccount {
+	text-align: center;
+    	width: 100%;
+    	height: 48px;
+    	font-size: 15px;
+    	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    	margin-top: 16px;
+
+}
+
+.createAccount a {
+	border: none;
+    	text-decoration:none;
+   	color: #2874f0;
+    	background-color: #fff;
+    	line-height: 2.5;
+}
+
+.footer {
+	background-color: #172337;
+
+}
+
+.footerSection {
+	margin-left: 65px;
+	width: 90% !important;
+	padding-top: 40px;
+	display: flex;
+	gap: 38px;
+}
+
+.about,
+.groupCompany,
+.consumer,
+.registeredOffice,
+.mailUs {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+
+.aboutBelow,
+.groupBelow,
+.helpBelow,
+.consumerBelow {
+	color: #ffffff;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.aboutBelow p {
+	cursor: pointer;
+}
+
+.aboutBelow p:hover,
+.groupBelow p:hover,
+.helpBelow p:hover,
+.consumerBelow p:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+
+.help {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.aboutSecTxt,
+.groupCompany,
+.helpSecTxt,
+.consumerSecTxt,
+.mailSecTxt,
+.social p,
+.registeredOfficeSecTxt {
+	color: #878787;
+	font-size: 12px;
+}
+
+
+.helpBelow p,
+.consumerBelow p,
+.groupBelow p {
+	cursor: pointer;
+}
+
+
+.line {
+	border: 1px solid #454d5e;
+	margin-left: 10px;
+}
+
+
+.mailBelow,
+.registeredOfficeBelow {
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+
+.socialIcons {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.socialIcons img {
+	cursor: pointer;
+}
+
+
+.registeredOfficeBelow a {
+	text-decoration: none;
+	color: #2874F0;
+}
+
+.footerBelow {
+	border-top: 1px solid #454d5e;
+	padding: 25px 0;
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footerBelow a {
+	text-decoration: none;
+	color: white;
+}
+
+.footerBelowSet {
+	display: flex;
+	font-size: 14px;
+	gap: 50px;
+}
+
+.corporate {
+	color: white;
+}
+
+.dropdown span {
+	font-size: 15px;
+	margin-top: 2px;
+
+}
+
+.footerBelowSet img {
+	cursor: default;
+}
+
+.line {
+	margin-left: 13px;
+}
+
+.aSeller {
+	padding-left: 55px;
+	display: flex;
+	align-items: center;
+}
+
+.advertise,
+.giftCard,
+.helpCenter,
+.cards,
+.corporate {
+	display: flex;
+	align-items: center;
+}
+
+.footerBelowSet a,
+.corporateTxt {
+	font-size: 12px;
+}
